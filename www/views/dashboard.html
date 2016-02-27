@@ -1,20 +1,14 @@
-
-
       <div class="row">
         <div class="col s12">
           <div class="card">
             <div class="card-image">
-              <img src="img/galaxy.jpg">
+              <!--<img src="img/galaxy.jpg" style="height:50%; width:50%;">-->
               <span class="card-title"> Donations </span>
             </div>
             <div class="card-content">
-              <p>
-                Twitter Digits Verified User! <i class="small material-icons green-text">done</i><br />
-                {{user[0].attributes.phoneNumber}}
-              </p>
 
               <p ng-if="campaigns.length > 0">
-                You have created {{campaigns.length}} campaigns for the poor.
+                You have created {{campaigns.length}} campaigns for your shelter.
               </p>
 
               <p ng-if="campaigns.length == 0">
@@ -27,12 +21,4 @@
             </div>
           </div>
         </div>
-      </div>
-
-      <br />
-
-      <div class="collection" ng-if="campaigns.length > 0">
-          <h3 class="white-text">My Donations</h3>
-          <a href="/#/campaign/{{campaign.attributes.id}}" class="collection-item waves-effect waves-teal btn-flat"
-          ng-repeat="campaign in campaigns"> {{campaign.attributes.title}} </a>
       </div>
