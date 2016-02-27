@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ioto">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <!--<link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />-->
+		<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+    <title>IOTO.IO</title>
+	<link rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	<!--<link href="lib/ionic/css/ionic.css" rel="stylesheet">-->
+
+	<link rel="stylesheet" href="css/style.css" media="screen,projection" />
+	<script src="lib/ionic/js/ionic.bundle.js"></script>
+	<script id="digits-sdk" src="js/sdk.js" async></script>
+	<script src="lib/angular-route/angular-route.js"></script>
+	<script src="js/app.js"></script>
+  <script id="sdk-js" src="https://cdn.digits.com/1/sdk.js" async></script>
+	<!-- Needed for Cordova/PhoneGap (will be a 404 during development) -->
+    <script src="cordova.js"></script>
+</head>
+
+<body ng-controller="indexController" class="platform-android platform-cordova platform-webview">
+	<nav class="light-blue lighten-1" role="navigation">
+		<div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#">Navbar Link</a></li>
+			</ul>
+
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="#">Navbar Link</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+
+	<div id="View" ng-view>
+
+	</div>
+
+	<!--  Scripts-->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="https://www.simplify.com/commerce/simplify.pay.js"></script>
+</body>
+
+</html>
