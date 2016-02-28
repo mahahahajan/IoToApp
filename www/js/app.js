@@ -68,7 +68,7 @@ angular.module('ioto').config(['$routeProvider',
       })
       .when('/dashboardUser', {
         templateUrl: 'views/dashboardUser.html',
-        controller: 'homeController',
+        controller: 'dashboardController',
         activetab: 'dashboard'
       })
   }
@@ -76,7 +76,7 @@ angular.module('ioto').config(['$routeProvider',
 
 angular.module('ioto').factory('iotoFactory',
   function() {
-
+    $(".dropdown-button").dropdown();
   }
 );
 
@@ -95,7 +95,7 @@ angular.module('ioto').controller('indexController', ['$scope', '$timeout',
 
     // Init Parse db
     Parse.$ = jQuery;
-    Parse.initialize("HMYywLrkuiRvB5DbqdgCE2Fp3xgw9sglabed4uoG");
+    Parse.initialize("HMYywLrkuiRvB5DbqdgCE2Fp3xgw9sglabed4uoG", "IpDyUAqrdNqGWEmyFJQGyfYWm5pJh1ord0vNyV7f");
 
     $scope.bgBlack = false;
   }
@@ -131,7 +131,7 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
 
       ]);
 
-    angular.module('ioto').controller('dashboardController', ['$scope', '$timeout', 'userId', '$location',
+    angular.module('ioto').controller('dashboardController', ['$scope', '$timeout', '$location',
       function($scope, $timeout, userId, $location) {
         $scope.$parent.bgBlack = true;
         $scope.user = null;
@@ -153,9 +153,9 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
 
 
         var campaignInfo = Parse.Object.extend("ProjectPage");
-        var campaigns = new Parse.Query(campaignInfo);
+        var campaigns = new Parse.Query("ProjectPage");
 
-        campaigns.equalTo('userId', userId).find({
+        campaigns.find({
           success: function(campaigns) {
             console.log(campaigns);
             $timeout(function() {
@@ -175,6 +175,7 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
     angular.module('ioto').controller('createCampaignController', ['$scope', '$location', '$timeout',
       function($scope, $location, $timeout) {
         $scope.$parent.bgBlack = false;
+        $scope.mode = 'money';
 
 
         /**
@@ -191,29 +192,67 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
             credentials: credentials
           };
         }
-
-
+        $scope.setMode = function (mode) {
+          $scope.mode = mode;
+        }
 
         var ProjectInfo = Parse.Object.extend("ProjectPage");
         var project = new ProjectInfo();
 
 
         //	project.set("Tag", );
-        $scope.submit = function() {
-          var Title = document.getElementById("Title").value;
-          var Name = document.getElementById("name").value;
-          var theDate = document.getElementById("date").value;
-          var description = document.getElementById("description").value;
-          var Where = document.getElementById("place").value;
-          var Money = parseInt(document.getElementById("money").value);
+        $scope.submit = function(mode) {
 
-          project.set("title", Title);
-          project.set("description", description);
-          project.set("when", theDate);
-          project.set("where", Where);
-          project.set("contact", Name);
-          project.set("moneyNeeded", Money);
-          project.set("userId", $scope.user[0].id);
+          if(mode == 'money'){
+            var Title = document.getElementById("Title").value;
+            var Money = parseInt(document.getElementById("amount").value);
+            var theDate = document.getElementById("date").value;
+            var howToMove = document.getElementById("transport").value;
+            var who = document.getElementById("name").value;
+
+
+            project.set("title", Title);
+            project.set("amount", Money);
+            project.set("when", theDate);
+            project.set("where", howToMove);
+            project.set("contact", who);
+
+            project.set("userId", "Shelter");
+          }
+          if(mode == 'food'){
+            var Title = document.getElementById("Title").value;
+            var Place = document.getElementById("place").value;
+            var Name = document.getElementById("name").value;
+            var When = document.getElementById("date").value;
+            var Describe = document.getElementById("description").value;
+
+            project.set("title", Title);
+            project.set("where", Place);
+            project.set("host", Name)
+            project.set("when", When);
+            project.set("description", Describe);
+            project.set("userId", "Shelter");
+
+          }
+          if(mode == 'clothes'){
+            var Title = document.getElementById("Title").value;
+            var Place = document.getElementById("place").value;
+            var Name = document.getElementById("name").value;
+            var When = document.getElementById("date").value;
+            var Describe = document.getElementById("description").value;
+
+            project.set("title", Title);
+            project.set("where", Place);
+            project.set("host", Name)
+            project.set("when", When);
+            project.set("description", Describe);
+            project.set("userId", "Shelter");
+
+          }
+
+
+
+
           project.save(null, {
             success: function(project) {
               // Execute any logic that should take place after the object is saved.
@@ -241,18 +280,17 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
 
         // Parse.initialize("wpvbhNsxxZam6HYa63vmudxBgJrasHXLq7WTxkKH", "WhODpEkC35r18jewjzrpw22KJwxLZJxbGQQcyxST");
         var CampaignInfo = Parse.Object.extend("ProjectPage");
-        var query = new Parse.Query(CampaignInfo);
+        var query = new Parse.Query("ProjectPage");
         query.get(campaignId.id, {
           success: function(campaign) {
             $timeout(function() {
+
               $scope.campaign = {
                 title: campaign.get("title"),
                 description: campaign.get("description"),
                 time: campaign.get("when"),
                 place: campaign.get("where"),
-                host: campaign.get("contact"),
-                money: campaign.get("moneyNeeded"),
-                tag: campaign.get("tag")
+                host: campaign.get("host"),
               }
 
             });
@@ -283,9 +321,9 @@ angular.module('ioto').controller('homeController', ['$scope', '$timeout', '$loc
 
         // Parse.initialize("wpvbhNsxxZam6HYa63vmudxBgJrasHXLq7WTxkKH", "WhODpEkC35r18jewjzrpw22KJwxLZJxbGQQcyxST");
         var CampaignInfo = Parse.Object.extend("ProjectPage");
-        var query = new Parse.Query(CampaignInfo);
+        var query = new Parse.Query("ProjectPage");
         query.find({
-          success: function(campaigns) {
+          success: function(objectId) {
             $timeout(function() {
               $scope.campaigns = campaigns;
 

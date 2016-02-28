@@ -24,10 +24,10 @@
     <script src="cordova.js"></script>
 </head>
 
-<body ng-controller="indexController" ng-class="{black : bgBlack }">
+<body ng-controller="indexController" ng-class="{white : bgBlack }">
 	 <nav>
     <div class="nav-wrapper #4db6ac teal lighten-2">
-      <a href="#" class="brand-logo center"><img src="https://pbs.twimg.com/profile_banners/3435993345/1440289449/1500x500" style="width:30%;"></a>
+      <a href="#/" class="brand-logo center"><h5> COVE </h3></a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li></li>
       </ul>
@@ -35,6 +35,14 @@
       </ul>
     </div>
   </nav>
+
+  <script>
+  (function() {
+
+   document.getElementById(".dropdown-button").dropdown();
+
+})();
+  </script>
 
 
 	<div id="View" ng-view>

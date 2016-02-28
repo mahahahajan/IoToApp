@@ -1,9 +1,13 @@
 
+<br />
+
 <div class="row">
 
-    <a class="waves-effect waves-light btn"><i class="material-icons">monetization_on</i> </a>
-    <a class="waves-effect waves-light btn"><i class="material-icons">restaurant</i></a>
-    <a class="waves-effect waves-light btn"><i class="material-icons">business_center</i></a>
+
+    <a class="waves-effect waves-light btn col m4 blue" ng-click="setMode('money')" ng-class="{ green : mode == 'money'}"><i class="material-icons">monetization_on</i> </a>
+    <a class="waves-effect waves-light btn col m4  blue" ng-click="setMode('food')" ng-class="{ green : mode == 'food'}"><i class="material-icons">restaurant</i></a>
+    <a class="waves-effect waves-light btn col m4 blue" ng-click="setMode('clothes')" ng-class="{ green : mode == 'clothes'}"><i class="material-icons">business_center</i></a>
+
 
 </div>
 
@@ -11,8 +15,46 @@
 <div class="row">
 
 
-  <form class="col s12">
+  <form class="col s12" ng-if="mode == 'money'">
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="Title" type="text" class="validate">
+        <label for="first_name">Reason Needed: (Can be general)</label>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="amount" type="text" class="validate">
+        <label for="first_name">Amount Needed:</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="date" type="text" class="validate">
+        <label for="date">By When:</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="transport" type="text" class="validate">
+        <label for="place">How can they send money:</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="name" type="text" class="validate">
+        <label for="name">Checks Made out to: (Can write N/A if not applicable)</label>
+      </div>
+    </div>
+      <div class="row">
+        <div class="input-field col s12 center-align">
+          <button ng-click="submit('money')" class="btn waves-effect waves-light btn-large " type="submit" name="action">Submit
+          </button>
+        </div>
+      </div>
+  </div>
+
+  </form>
+  <!-- Form for money ^^ -->
+  <!-- COPY AND PASTE -->
+  <form class="col s12" ng-if="mode == 'food'">
     <div class="row">
       <div class="input-field col s12">
         <input id="Title" type="text" class="validate">
@@ -21,44 +63,87 @@
     </div>
     <div class="row">
       <div class="input-field col s12">
-        <input id="userId" type="text" class="validate">
+        <input id="place" type="text" class="validate">
         <label for="first_name">Location:</label>
       </div>
     </div>
     <div class="row">
       <div class="input-field col s6">
         <input id="name" type="text" class="validate">
-        <label for="first_name">Contact</label>
+        <label for="first_name">Contact:</label>
       </div>
       <div class="input-field col s6">
         <input id="date" type="text" class="validate">
-        <label for="date">Date</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="input-field col s6">
-        <input id="place" type="text" class="validate">
-        <label for="place">Location</label>
-      </div>
-      <div class="input-field col s6">
-        <input id="money" type="text" class="validate">
-        <label for="last_name">Donations Needed</label>
+        <label for="date">When:</label>
       </div>
     </div>
 
       <div class="row">
         <div class="input-field col s12">
           <textarea id="description" class="materialize-textarea"></textarea>
-          <label for="textarea1">Description</label>
+          <label for="textarea1">Other:</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12 center-align">
-          <button ng-click="submit()" class="btn waves-effect waves-light btn-large " type="submit" name="action">Submit
+          <button ng-click="submit('food')" class="btn waves-effect waves-light btn-large " type="submit" name="action">Submit
           </button>
         </div>
       </div>
   </div>
 
   </form>
+
+
+  <form class="col s12" ng-if="mode == 'clothes'">
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="Title" type="text" class="validate">
+        <label for="first_name">Needed:</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="place" type="text" class="validate">
+        <label for="first_name">Location:</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="name" type="text" class="validate">
+        <label for="first_name">Contact:</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="date" type="text" class="validate">
+        <label for="date">Date:</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="size" type="text" class="validate">
+        <label for="place">Size Range:</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="gender" type="text" class="validate">
+        <label for="last_name">Male or Women:</label>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="description" class="materialize-textarea"></textarea>
+          <label for="textarea1">Additional Info:</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12 center-align">
+          <button ng-click="submit('clothes')" class="btn waves-effect waves-light btn-large " type="submit" name="action">Submit
+          </button>
+        </div>
+      </div>
+  </div>
+
+  </form>
+
+
 </div>

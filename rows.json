@@ -1,0 +1,1620 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "wu33-vg7m",
+      "name" : "Alameda County Shelters (Emergencies)",
+      "attribution" : "Alameda County Social Services Agency",
+      "averageRating" : 0,
+      "category" : "Social Services",
+      "createdAt" : 1366844663,
+      "description" : "In the event of a disaster, where large numbers of residents are displaced, the Social Services Agency is charged with providing workers for mass shelters in the unincorporated areas of Alameda County.\r\n\r\nThe data contained in the data set includes locations of potential shelter locations, with information on location, facility, and who to contact.  In the event of a disaster, shelter locations must be inspected for structural integrity and cleared for public use.  In addition, if the shelter is a school site, all students must be released before it can be opened for public shelter use.",
+      "displayType" : "table",
+      "downloadCount" : 225,
+      "indexUpdatedAt" : 1414777740,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 3347293,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1366926431,
+      "publicationGroup" : 816731,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1366926341,
+      "rowsUpdatedBy" : "hvsq-ajgr",
+      "tableId" : 818947,
+      "totalTimesRated" : 0,
+      "viewCount" : 302,
+      "viewLastModified" : 1397090921,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 60845881,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814465,
+        "width" : 246,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "Alameda High School",
+          "null" : 0,
+          "largest" : "Woodthrush Park",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Senior Center"
+          }, {
+            "count" : 19,
+            "item" : "Wood Middle School"
+          }, {
+            "count" : 18,
+            "item" : "Woodstock Elementary School"
+          }, {
+            "count" : 17,
+            "item" : "Woodthrush Park"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845882,
+        "name" : "Address",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814466,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "1000 Jackson Street",
+          "null" : 0,
+          "largest" : "W. Las Positas @ Gulfstream",
+          "top" : [ {
+            "count" : 20,
+            "item" : "5801 Valley Avenue"
+          }, {
+            "count" : 19,
+            "item" : "420 Grand Street"
+          }, {
+            "count" : 18,
+            "item" : "1900 Third Street"
+          }, {
+            "count" : 17,
+            "item" : "5051 Woodthrush Road"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845883,
+        "name" : "City",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814467,
+        "width" : 78,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "Alameda",
+          "null" : 0,
+          "largest" : "Union City",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Alameda"
+          }, {
+            "count" : 19,
+            "item" : "Albany"
+          }, {
+            "count" : 18,
+            "item" : "Livermore"
+          }, {
+            "count" : 17,
+            "item" : "Union City"
+          }, {
+            "count" : 16,
+            "item" : "Pleasanton"
+          }, {
+            "count" : 15,
+            "item" : "Fremont"
+          }, {
+            "count" : 14,
+            "item" : "San Lorenzo"
+          }, {
+            "count" : 13,
+            "item" : "Oakland"
+          }, {
+            "count" : 12,
+            "item" : "San Leandro"
+          }, {
+            "count" : 11,
+            "item" : "Newark"
+          }, {
+            "count" : 10,
+            "item" : "Hayward"
+          }, {
+            "count" : 9,
+            "item" : "Castro Valley"
+          }, {
+            "count" : 8,
+            "item" : "Berkeley"
+          }, {
+            "count" : 7,
+            "item" : "Dublin"
+          }, {
+            "count" : 6,
+            "item" : "Emeryville"
+          }, {
+            "count" : 5,
+            "item" : "Piedmont"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845884,
+        "name" : "State",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814468,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "CA",
+          "null" : 0,
+          "largest" : "CA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "CA"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845885,
+        "name" : "Zip",
+        "dataTypeName" : "number",
+        "fieldName" : "zip",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814469,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "93610",
+          "sum" : "23643705",
+          "null" : 0,
+          "average" : "94574.82",
+          "largest" : "94711",
+          "top" : [ {
+            "count" : 20,
+            "item" : "94501"
+          }, {
+            "count" : 19,
+            "item" : "94706"
+          }, {
+            "count" : 18,
+            "item" : "94550"
+          }, {
+            "count" : 17,
+            "item" : "94587"
+          }, {
+            "count" : 16,
+            "item" : "94566"
+          }, {
+            "count" : 15,
+            "item" : "94588"
+          }, {
+            "count" : 14,
+            "item" : "94538"
+          }, {
+            "count" : 13,
+            "item" : "94580"
+          }, {
+            "count" : 12,
+            "item" : "94605"
+          }, {
+            "count" : 11,
+            "item" : "94577"
+          }, {
+            "count" : 10,
+            "item" : "94607"
+          }, {
+            "count" : 9,
+            "item" : "94560"
+          }, {
+            "count" : 8,
+            "item" : "94541"
+          }, {
+            "count" : 7,
+            "item" : "94602"
+          }, {
+            "count" : 6,
+            "item" : "94603"
+          }, {
+            "count" : 5,
+            "item" : "94601"
+          }, {
+            "count" : 4,
+            "item" : "94546"
+          }, {
+            "count" : 3,
+            "item" : "94609"
+          }, {
+            "count" : 2,
+            "item" : "94702"
+          }, {
+            "count" : 1,
+            "item" : "94618"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 60845886,
+        "name" : "Owner",
+        "dataTypeName" : "text",
+        "fieldName" : "owner",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814470,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 248,
+          "smallest" : "Alameda County",
+          "null" : 2,
+          "largest" : "Valley Christian Center",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Alameda Unified School District"
+          }, {
+            "count" : 19,
+            "item" : "Albany Unified School District"
+          }, {
+            "count" : 18,
+            "item" : "Livermore Valley Joint Unified School District"
+          }, {
+            "count" : 17,
+            "item" : "City of Union City"
+          }, {
+            "count" : 16,
+            "item" : "City of Pleasanton"
+          }, {
+            "count" : 15,
+            "item" : "Fremont Unified School District"
+          }, {
+            "count" : 14,
+            "item" : "San Lorenzo School District"
+          }, {
+            "count" : 13,
+            "item" : "Oakland Office of Parks and Recreation"
+          }, {
+            "count" : 12,
+            "item" : "City of Newark"
+          }, {
+            "count" : 11,
+            "item" : "Hayward Unified School District"
+          }, {
+            "count" : 10,
+            "item" : "Oakland Unified School District"
+          }, {
+            "count" : 9,
+            "item" : "Castro Valley School District"
+          }, {
+            "count" : 8,
+            "item" : "City of Berkeley"
+          }, {
+            "count" : 7,
+            "item" : "City of Fremont"
+          }, {
+            "count" : 6,
+            "item" : "Dublin Unified School District"
+          }, {
+            "count" : 5,
+            "item" : "St. Anthony Church and School"
+          }, {
+            "count" : 4,
+            "item" : "St. Elizabeth's Parish"
+          }, {
+            "count" : 3,
+            "item" : "Roman Catholic Bishop of Oakland Sole"
+          }, {
+            "count" : 2,
+            "item" : "St. Mary's College High School"
+          }, {
+            "count" : 1,
+            "item" : "Taylor Memorial United Methodist Church"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845887,
+        "name" : "Primary Contact",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_contact",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814471,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 233,
+          "smallest" : "Allan Shrafman",
+          "null" : 17,
+          "largest" : "William Wheat, Principal",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Robert DeLuca"
+          }, {
+            "count" : 19,
+            "item" : "Ken De Silva"
+          }, {
+            "count" : 18,
+            "item" : "Phil Sachs, Public Works Superintendent"
+          }, {
+            "count" : 17,
+            "item" : "Tony Acosta, Director"
+          }, {
+            "count" : 16,
+            "item" : "George Musgrove - Superintendent"
+          }, {
+            "count" : 15,
+            "item" : "Lisa Caronna"
+          }, {
+            "count" : 14,
+            "item" : "Robert White"
+          }, {
+            "count" : 13,
+            "item" : "Valerie Crawford, Leisure Services Director"
+          }, {
+            "count" : 12,
+            "item" : "Darryl L. Reina"
+          }, {
+            "count" : 11,
+            "item" : "Paul Manley"
+          }, {
+            "count" : 10,
+            "item" : "Mark Dreventhal"
+          }, {
+            "count" : 9,
+            "item" : "Sherri Smith"
+          }, {
+            "count" : 8,
+            "item" : "Judy Duran, Principal"
+          }, {
+            "count" : 7,
+            "item" : "Diane Cariss - Principal"
+          }, {
+            "count" : 6,
+            "item" : "Wayland Sheppard, Prinicipal"
+          }, {
+            "count" : 5,
+            "item" : "Effie Burgess"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845888,
+        "name" : "Primary Phone 1",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_phone_1",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814472,
+        "width" : 178,
+        "cachedContents" : {
+          "non_null" : 246,
+          "smallest" : "(510) 238-3092",
+          "null" : 4,
+          "largest" : "(925) 833-3328",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(510) 337-7090"
+          }, {
+            "count" : 19,
+            "item" : "(925) 484-8067"
+          }, {
+            "count" : 18,
+            "item" : "(510) 471-3232 x355"
+          }, {
+            "count" : 17,
+            "item" : "(510) 238-3092"
+          }, {
+            "count" : 16,
+            "item" : "(510) 670-4140"
+          }, {
+            "count" : 15,
+            "item" : "(510) 644-6943  x222"
+          }, {
+            "count" : 14,
+            "item" : "(510) 471-3232 x312"
+          }, {
+            "count" : 13,
+            "item" : "(510) 784-2670"
+          }, {
+            "count" : 12,
+            "item" : "(510) 745-1124"
+          }, {
+            "count" : 11,
+            "item" : "(510) 818-4272"
+          }, {
+            "count" : 10,
+            "item" : "(510) 534-2117"
+          }, {
+            "count" : 9,
+            "item" : "(510) 536-1266"
+          }, {
+            "count" : 8,
+            "item" : "(510) 783-2766"
+          }, {
+            "count" : 7,
+            "item" : "(510) 559-6258"
+          }, {
+            "count" : 6,
+            "item" : "(510) 727-9192"
+          }, {
+            "count" : 5,
+            "item" : "(925) 606-4752"
+          }, {
+            "count" : 4,
+            "item" : "(510) 444-6162"
+          }, {
+            "count" : 3,
+            "item" : "(925) 828-1580"
+          }, {
+            "count" : 2,
+            "item" : "(510) 793-9090"
+          }, {
+            "count" : 1,
+            "item" : "(510) 836-3135"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845889,
+        "name" : "Primary Phone 2",
+        "dataTypeName" : "text",
+        "fieldName" : "primary_phone_2",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814473,
+        "width" : 212,
+        "cachedContents" : {
+          "non_null" : 160,
+          "smallest" : "(408) 223-2482",
+          "null" : 90,
+          "largest" : "Call dispatch to locate.",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(925) 778-6476 or (510) 448-6427 pgr"
+          }, {
+            "count" : 19,
+            "item" : "(510) 525-3328"
+          }, {
+            "count" : 18,
+            "item" : "(925) 754-3156"
+          }, {
+            "count" : 17,
+            "item" : "(510) 657-4355"
+          }, {
+            "count" : 16,
+            "item" : "(510) 840-0054 pgr"
+          }, {
+            "count" : 15,
+            "item" : "(510) 636-0981"
+          }, {
+            "count" : 14,
+            "item" : "(510) 238-7738"
+          }, {
+            "count" : 13,
+            "item" : "(510) 526-9110"
+          }, {
+            "count" : 12,
+            "item" : "(925) 373-8254"
+          }, {
+            "count" : 11,
+            "item" : "(510) 796-6310"
+          }, {
+            "count" : 10,
+            "item" : "(925) 766-2131"
+          }, {
+            "count" : 9,
+            "item" : "(510) 319-3413"
+          }, {
+            "count" : 8,
+            "item" : "(925) 937-0186"
+          }, {
+            "count" : 7,
+            "item" : "(925) 833-9032"
+          }, {
+            "count" : 6,
+            "item" : "(510) 790-0257"
+          }, {
+            "count" : 5,
+            "item" : "(510) 659-4314 pgr"
+          }, {
+            "count" : 4,
+            "item" : "(925) 743-9669"
+          }, {
+            "count" : 3,
+            "item" : "(510) 524-3241"
+          }, {
+            "count" : 2,
+            "item" : "(510) 651-0867"
+          }, {
+            "count" : 1,
+            "item" : "415/824-5610"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845890,
+        "name" : "Secondary Contact",
+        "dataTypeName" : "text",
+        "fieldName" : "secondary_contact",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814474,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 222,
+          "smallest" : "(510) 568-6924",
+          "null" : 28,
+          "largest" : "Yvonne Allara - Principal",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Chris Rizzoli"
+          }, {
+            "count" : 19,
+            "item" : "James Ferrraro, Director, Maintenance/Operations"
+          }, {
+            "count" : 18,
+            "item" : "Larry Cheeves, Public Works Director"
+          }, {
+            "count" : 17,
+            "item" : "Michael Miller - Director, Maint., Ops and Transp"
+          }, {
+            "count" : 16,
+            "item" : "Cliff Marchetti"
+          }, {
+            "count" : 15,
+            "item" : "Larry Lepore"
+          }, {
+            "count" : 14,
+            "item" : "David Zehnder"
+          }, {
+            "count" : 13,
+            "item" : "Lorenzo Legaspi"
+          }, {
+            "count" : 12,
+            "item" : "Bonnie Hutchins, Head Custodian"
+          }, {
+            "count" : 11,
+            "item" : "Kathy Westley, Church Secretary"
+          }, {
+            "count" : 10,
+            "item" : "John Lambert, Custodian"
+          }, {
+            "count" : 9,
+            "item" : "Russ Cameron, Head Custodian"
+          }, {
+            "count" : 8,
+            "item" : "Greg Tuck"
+          }, {
+            "count" : 7,
+            "item" : "City of Piedmont Police Department"
+          }, {
+            "count" : 6,
+            "item" : "Dwayne Cross, Custodian"
+          }, {
+            "count" : 5,
+            "item" : "John Jamolis"
+          }, {
+            "count" : 4,
+            "item" : "Mike Janvier"
+          }, {
+            "count" : 3,
+            "item" : "Skip Cain, Assistant Principal"
+          }, {
+            "count" : 2,
+            "item" : "Jae Leal, Head Custodian"
+          }, {
+            "count" : 1,
+            "item" : "Larry Taylor"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845891,
+        "name" : "Secondary Phone 1",
+        "dataTypeName" : "text",
+        "fieldName" : "secondary_phone_1",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814475,
+        "width" : 235,
+        "cachedContents" : {
+          "non_null" : 224,
+          "smallest" : "(510) 238-7739",
+          "null" : 26,
+          "largest" : "(925) 833-3345",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(925) 484-8067"
+          }, {
+            "count" : 19,
+            "item" : "(510) 317-4831"
+          }, {
+            "count" : 18,
+            "item" : "(510) 471-3232 x306"
+          }, {
+            "count" : 17,
+            "item" : "(510) 582-7201"
+          }, {
+            "count" : 16,
+            "item" : "(510) 644-6943  x224"
+          }, {
+            "count" : 15,
+            "item" : "(510) 784-2606"
+          }, {
+            "count" : 14,
+            "item" : "(510) 745-1124"
+          }, {
+            "count" : 13,
+            "item" : "(510) 818-4103"
+          }, {
+            "count" : 12,
+            "item" : "(510) 783-2766"
+          }, {
+            "count" : 11,
+            "item" : "(510) 559-6223"
+          }, {
+            "count" : 10,
+            "item" : "(510) 597-5027"
+          }, {
+            "count" : 9,
+            "item" : "(925) 606-4752"
+          }, {
+            "count" : 8,
+            "item" : "(925) 828-1580"
+          }, {
+            "count" : 7,
+            "item" : "(510) 793-9090"
+          }, {
+            "count" : 6,
+            "item" : "(925) 828-4549"
+          }, {
+            "count" : 5,
+            "item" : "(925) 829-4322"
+          }, {
+            "count" : 4,
+            "item" : "(510) 420-3000"
+          }, {
+            "count" : 3,
+            "item" : "(510) 656-7211"
+          }, {
+            "count" : 2,
+            "item" : "(510) 791-4318"
+          }, {
+            "count" : 1,
+            "item" : "(510) 748-4007"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845892,
+        "name" : "Secondary Phone 2",
+        "dataTypeName" : "text",
+        "fieldName" : "secondary_phone_2",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814476,
+        "width" : 240,
+        "cachedContents" : {
+          "non_null" : 157,
+          "smallest" : "(209) 529-8865",
+          "null" : 93,
+          "largest" : "Call dispatch to locate.",
+          "top" : [ {
+            "count" : 20,
+            "item" : "(925) 745-0273"
+          }, {
+            "count" : 19,
+            "item" : "(510) 429-8407"
+          }, {
+            "count" : 18,
+            "item" : "(510) 710-5662"
+          }, {
+            "count" : 17,
+            "item" : "(510) 448-5339 pgr"
+          }, {
+            "count" : 16,
+            "item" : "(925) 820-7580"
+          }, {
+            "count" : 15,
+            "item" : "(510) 733-2700"
+          }, {
+            "count" : 14,
+            "item" : "(510) 790-1988"
+          }, {
+            "count" : 13,
+            "item" : "(510) 657-0554"
+          }, {
+            "count" : 12,
+            "item" : "(510) 523-6671 or (510) 448-3440 pgr"
+          }, {
+            "count" : 11,
+            "item" : "(510) 657-3844"
+          }, {
+            "count" : 10,
+            "item" : "(925) 443-9572"
+          }, {
+            "count" : 9,
+            "item" : "(510) 522-2106"
+          }, {
+            "count" : 8,
+            "item" : "(510) 357-8220 or (510) 310-2360 pgr"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845893,
+        "name" : "Capacity",
+        "dataTypeName" : "number",
+        "fieldName" : "capacity",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814477,
+        "width" : 87,
+        "cachedContents" : {
+          "non_null" : 150,
+          "smallest" : "0",
+          "sum" : "314442",
+          "null" : 100,
+          "average" : "2096.28",
+          "largest" : "82002",
+          "top" : [ {
+            "count" : 20,
+            "item" : "125"
+          }, {
+            "count" : 19,
+            "item" : "100"
+          }, {
+            "count" : 18,
+            "item" : "300"
+          }, {
+            "count" : 17,
+            "item" : "1000"
+          }, {
+            "count" : 16,
+            "item" : "200"
+          }, {
+            "count" : 15,
+            "item" : "67"
+          }, {
+            "count" : 14,
+            "item" : "3267"
+          }, {
+            "count" : 13,
+            "item" : "250"
+          }, {
+            "count" : 12,
+            "item" : "150"
+          }, {
+            "count" : 11,
+            "item" : "545"
+          }, {
+            "count" : 10,
+            "item" : "271"
+          }, {
+            "count" : 9,
+            "item" : "175"
+          }, {
+            "count" : 8,
+            "item" : "3049"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845894,
+        "name" : "Area",
+        "dataTypeName" : "text",
+        "fieldName" : "area",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814478,
+        "width" : 73,
+        "cachedContents" : {
+          "non_null" : 20,
+          "smallest" : "10.46 acres",
+          "null" : 230,
+          "largest" : "9.21 acres",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3.51 acres"
+          }, {
+            "count" : 19,
+            "item" : "14 acres"
+          }, {
+            "count" : 18,
+            "item" : "11.92 acres"
+          }, {
+            "count" : 17,
+            "item" : "4.94 acres"
+          }, {
+            "count" : 16,
+            "item" : "10.6 acres"
+          }, {
+            "count" : 15,
+            "item" : "9.21 acres"
+          }, {
+            "count" : 14,
+            "item" : "6.2 acres"
+          }, {
+            "count" : 13,
+            "item" : "4.24 acres"
+          }, {
+            "count" : 12,
+            "item" : "10.46 acres"
+          }, {
+            "count" : 11,
+            "item" : "5.61 acres"
+          }, {
+            "count" : 10,
+            "item" : "16 acres"
+          }, {
+            "count" : 9,
+            "item" : "4.28 acres"
+          }, {
+            "count" : 8,
+            "item" : "4 acres"
+          }, {
+            "count" : 7,
+            "item" : "5.58 acres"
+          }, {
+            "count" : 6,
+            "item" : "12.95 acres"
+          }, {
+            "count" : 5,
+            "item" : "3.42 acres"
+          }, {
+            "count" : 4,
+            "item" : "14,300sq ft."
+          }, {
+            "count" : 3,
+            "item" : "11.10 acres"
+          }, {
+            "count" : 2,
+            "item" : "7.2 acres"
+          }, {
+            "count" : 1,
+            "item" : "3.71 acres"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845895,
+        "name" : "Bathrooms",
+        "dataTypeName" : "text",
+        "fieldName" : "bathrooms",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814479,
+        "width" : 69,
+        "cachedContents" : {
+          "non_null" : 202,
+          "smallest" : "No",
+          "null" : 48,
+          "largest" : "Yes (Bldg #9)",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          }, {
+            "count" : 18,
+            "item" : "Yes (Bldg #9)"
+          }, {
+            "count" : 17,
+            "item" : "yes"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845896,
+        "name" : "No. Bathrooms",
+        "dataTypeName" : "number",
+        "fieldName" : "no_bathrooms",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814480,
+        "width" : 82,
+        "cachedContents" : {
+          "non_null" : 124,
+          "smallest" : "1",
+          "sum" : "1394",
+          "null" : 126,
+          "average" : "11.24193548387097",
+          "largest" : "193",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4"
+          }, {
+            "count" : 19,
+            "item" : "12"
+          }, {
+            "count" : 18,
+            "item" : "2"
+          }, {
+            "count" : 17,
+            "item" : "42"
+          }, {
+            "count" : 16,
+            "item" : "16"
+          }, {
+            "count" : 15,
+            "item" : "3"
+          }, {
+            "count" : 14,
+            "item" : "14"
+          }, {
+            "count" : 13,
+            "item" : "10"
+          }, {
+            "count" : 12,
+            "item" : "193"
+          }, {
+            "count" : 11,
+            "item" : "8"
+          }, {
+            "count" : 10,
+            "item" : "5"
+          }, {
+            "count" : 9,
+            "item" : "6"
+          }, {
+            "count" : 8,
+            "item" : "18"
+          }, {
+            "count" : 7,
+            "item" : "26"
+          }, {
+            "count" : 6,
+            "item" : "73"
+          }, {
+            "count" : 5,
+            "item" : "32"
+          }, {
+            "count" : 4,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "20"
+          }, {
+            "count" : 2,
+            "item" : "39"
+          }, {
+            "count" : 1,
+            "item" : "21"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845897,
+        "name" : "Toilets",
+        "dataTypeName" : "number",
+        "fieldName" : "toilets",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814481,
+        "width" : 60,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "6",
+          "sum" : "246",
+          "null" : 240,
+          "average" : "24.6",
+          "largest" : "57",
+          "top" : [ {
+            "count" : 20,
+            "item" : "17"
+          }, {
+            "count" : 19,
+            "item" : "57"
+          }, {
+            "count" : 18,
+            "item" : "20"
+          }, {
+            "count" : 17,
+            "item" : "19"
+          }, {
+            "count" : 16,
+            "item" : "28"
+          }, {
+            "count" : 15,
+            "item" : "6"
+          }, {
+            "count" : 14,
+            "item" : "7"
+          }, {
+            "count" : 13,
+            "item" : "55"
+          }, {
+            "count" : 12,
+            "item" : "31"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845898,
+        "name" : "Showers",
+        "dataTypeName" : "number",
+        "fieldName" : "showers",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814482,
+        "width" : 50,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "12",
+          "sum" : "40",
+          "null" : 247,
+          "average" : "13.33333333333333",
+          "largest" : "16",
+          "top" : [ {
+            "count" : 20,
+            "item" : "12"
+          }, {
+            "count" : 19,
+            "item" : "16"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 60845899,
+        "name" : "Kitchen",
+        "dataTypeName" : "text",
+        "fieldName" : "kitchen",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814483,
+        "width" : 57,
+        "cachedContents" : {
+          "non_null" : 202,
+          "smallest" : "Catering",
+          "null" : 48,
+          "largest" : "Yes (Bldg #5)",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "No"
+          }, {
+            "count" : 18,
+            "item" : "Catering"
+          }, {
+            "count" : 17,
+            "item" : "Yes (Bldg #5)"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845900,
+        "name" : "ADA",
+        "dataTypeName" : "text",
+        "fieldName" : "ada",
+        "position" : 20,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814484,
+        "width" : 73,
+        "cachedContents" : {
+          "non_null" : 152,
+          "smallest" : "No",
+          "null" : 98,
+          "largest" : "Yes",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Yes"
+          }, {
+            "count" : 19,
+            "item" : "Partial"
+          }, {
+            "count" : 18,
+            "item" : "No"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845901,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814486,
+        "width" : 101,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "37.484356",
+          "sum" : "9427.4812464",
+          "null" : 0,
+          "average" : "37.7099249856",
+          "largest" : "37.8979239",
+          "top" : [ {
+            "count" : 20,
+            "item" : "37.6599566"
+          }, {
+            "count" : 19,
+            "item" : "37.761184"
+          }, {
+            "count" : 18,
+            "item" : "37.779616"
+          }, {
+            "count" : 17,
+            "item" : "37.6804862"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60845902,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 9814487,
+        "width" : 131,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : "-122.3012094",
+          "sum" : "-30516.2444947",
+          "null" : 0,
+          "average" : "-122.0649779788",
+          "largest" : "-121.7286753",
+          "top" : [ {
+            "count" : 20,
+            "item" : "-122.0900904"
+          }, {
+            "count" : 19,
+            "item" : "-122.262663"
+          }, {
+            "count" : 18,
+            "item" : "-122.287854"
+          }, {
+            "count" : 17,
+            "item" : "-121.8857903"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 60846114,
+        "name" : "Location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 23,
+        "renderTypeName" : "location",
+        "tableColumnId" : 9847235,
+        "width" : 139,
+        "cachedContents" : {
+          "non_null" : 250,
+          "smallest" : {
+            "longitude" : "-122.2473031",
+            "latitude" : "37.7642872"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-121.8857903",
+            "latitude" : "37.6804862"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-122.0900904",
+              "latitude" : "37.6599566"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-122.262663",
+              "latitude" : "37.761184"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-122.287854",
+              "latitude" : "37.779616"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-121.8857903",
+              "latitude" : "37.6804862"
+            }
+          } ]
+        },
+        "format" : { },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 60845903,
+        "name" : "Notes",
+        "dataTypeName" : "text",
+        "fieldName" : "notes",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 9814485,
+        "width" : 206,
+        "cachedContents" : {
+          "non_null" : 1,
+          "smallest" : "Additional facilities outside",
+          "null" : 249,
+          "largest" : "Additional facilities outside",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Additional facilities outside"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "hvsq-ajgr",
+        "displayName" : "Matt Paul",
+        "roleName" : "publisher",
+        "screenName" : "Matt Paul",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "hvsq-ajgr",
+        "displayName" : "Matt Paul",
+        "roleName" : "publisher",
+        "screenName" : "Matt Paul",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "alameda county shelters locations disaster public" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "681E2929-8AB8-4233-A9EB-2F09CCA61451", 1, 1366846083, "700497", 1366846083, "700497", "{\n}", "Alameda High School", "210 Central Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Darryl Stucker", "(510) 748-4023", "(925) 736-9500 or (925) 853-0855 cell", "250", null, "Yes", "4", null, null, "Yes", "Yes", "37.7642872", "-122.2473031", [ null, "37.7642872", "-122.2473031", null, false ], null ]
+, [ 2, "9A1BD33C-253B-4A0F-85FC-6D56445F13C1", 2, 1366846083, "700497", 1366846083, "700497", "{\n}", "Albany Middle School", "1259 Brighton Ave.", "Albany", "CA", "94706", "Albany Unified School District", "Allan Shrafman", "(510) 435-7718", "(510) 525-3328", "Anthony Douglas", "(510) 558-3600", "(510) 245-0117", null, null, "Yes", null, null, null, "Yes", "Yes", "37.8979239", "-122.29534", [ null, "37.8979239", "-122.29534", null, false ], null ]
+, [ 3, "0B8CA925-1CE7-45BA-9F6B-5952BFD13E2E", 3, 1366846083, "700497", 1366846083, "700497", "{\n}", "Almond Avenue Elementary School", "1401 Almond Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Randy Zern, Principal", "(925) 606-3350", null, "Mike Spence, Head Custodian", "(925) 606-3350", "(925) 455-0957", "158", null, "Yes", "12", null, null, "Yes", "Partial", "37.67517", "-121.739826", [ null, "37.67517", "-121.739826", null, false ], null ]
+, [ 4, "9757959F-6907-438E-A487-C9E286D32A1D", 4, 1366846083, "700497", 1366846083, "700497", "{\n}", "Alvarado/Contempo Resource Center", "4361 Agena Circle", "Union City", "CA", "94587", "City of Union City", "Jaime Jaramillo", "(510) 489-4100", "(510) 739-6569 or (510) 390-1854", "Officer Javier Diaz", "(510) 471-3232 x621", "Call business phone (dispatch)", null, null, "Yes", "2", null, null, "Yes", "Yes", "37.583896", "-122.070369", [ null, "37.583896", "-122.070369", null, false ], null ]
+, [ 5, "09CB5B89-438C-4EE3-9E88-D24BA18C4FFE", 5, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amador Park Community Clubhouse", "4455 Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "56", null, "Yes", "2", null, null, "No", null, "37.672198", "-121.873754", [ null, "37.672198", "-121.873754", null, false ], null ]
+, [ 6, "1719710A-D50A-4D93-95E7-F0F3D3391C45", 6, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amador Park Cultural Arts Building", "4477 Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "80", null, "Yes", "2", null, null, "No", null, "37.672241", "-121.873936", [ null, "37.672241", "-121.873936", null, false ], null ]
+, [ 7, "EDCD197B-6F3D-4EF5-8F26-EAB5804B3645", 7, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amador Park Ginger Bread Preschool", "4333 Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "173", null, "Yes", "2", null, null, "No", null, "37.672181", "-121.872852", [ null, "37.672181", "-121.872852", null, false ], null ]
+, [ 8, "820D3A5C-6189-495F-B386-9ABBCAC8D91F", 8, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amador Park Recreation Building", "4455 Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "50", null, "Yes", "2", null, null, "No", null, "37.672198", "-121.873754", [ null, "37.672198", "-121.873754", null, false ], null ]
+, [ 9, "0D697499-2AF2-4908-8F25-5FE21AB1D03E", 9, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amador Valley Park", "Santa Rita Road @ Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "19602", null, "Yes", "2", null, null, "No", null, "37.6732641", "-121.8741234", [ null, "37.6732641", "-121.8741234", null, false ], null ]
+, [ 10, "7BC0F479-19E3-40A0-B416-A92299E39D0B", 10, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amaral Park", "3400 Dennis Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "4683", null, "No", null, null, null, "No", null, "37.692398", "-121.862735", [ null, "37.692398", "-121.862735", null, false ], null ]
+, [ 11, "4A3A4778-C7DF-4601-A34A-B58CAFFBCB39", 11, 1366846083, "700497", 1366846083, "700497", "{\n}", "Amelia Earhart Elementary School", "400 Packet Landing Road", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Rosemary Holmes", "(510) 748-4003", "(510) 521-8537 or (510) 448-6915 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.7451447", "-122.2381519", [ null, "37.7451447", "-122.2381519", null, false ], null ]
+, [ 12, "3E46AD13-824A-48EA-93A9-5885CFD707C7", 12, 1366846083, "700497", 1366846083, "700497", "{\n}", "American High School", "36300 Fremont Blvd.", "Fremont", "CA", "94538", "Fremont Unified School District", "Connie White, Principal", "(510) 796-1776", "(510) 657-0790", "Doug Abbey, Supply Clerk", "(510) 796-1776", "(510) 795-9278", "1200", null, "Yes", "42", null, null, "Yes", "Yes", "37.5644537", "-122.0166924", [ null, "37.5644537", "-122.0166924", null, false ], null ]
+, [ 13, "0B1D1C3B-83D0-4929-BB82-C1886A423304", 13, 1366846083, "700497", 1366846083, "700497", "{\n}", "Arroyo High School", "15701 Lorenzo Ave.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Richard LLoyd - Principal", "(510) 317-4000", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6804146", "-122.1392534", [ null, "37.6804146", "-122.1392534", null, false ], null ]
+, [ 14, "34EF8625-9E8B-4BC0-8E0F-0FB496F5D3E8", 14, 1366846083, "700497", 1366846083, "700497", "{\n}", "Arroyo Mocho Elementary School", "1040 Florence Road", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Mike Hazelhofer, Principal", "(925) 606-3444", "(925) 606-1691", "Eric Ray, Head Custodian", "(925) 606-3444", "(925) 606-8106", "173", null, "Yes", "16", null, null, "Yes", "Partial", "37.669090", "-121.774061", [ null, "37.669090", "-121.774061", null, false ], null ]
+, [ 15, "7108B242-2800-4539-9B65-CE85B060AF8C", 15, 1366846083, "700497", 1366846083, "700497", "{\n}", "Arroyo Park", "35199 Perry Road", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "3.51 acres", "Yes", "3", null, null, "No", "Yes", "37.5816018", "-122.0127391", [ null, "37.5816018", "-122.0127391", null, false ], null ]
+, [ 16, "D5B4D8D7-9373-47C3-B2CA-7CA83A6B7AC3", 16, 1366846083, "700497", 1366846083, "700497", "{\n}", "Arroyo Seco Elementary School", "5280 Irene Way", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Bob See, Principal", "(925) 606-4700", "(925) 846-4155", "Darrell Silva, Head Custodian", "(925) 606-4700", "(209) 836-5454", "279", null, "Yes", "14", null, null, "Yes", "Partial", "37.6848438", "-121.7286753", [ null, "37.6848438", "-121.7286753", null, false ], null ]
+, [ 17, "A1B09246-CE53-47A4-8F0C-23B3BF8BB90C", 17, 1366846083, "700497", 1366846083, "700497", "{\n}", "Arroyo Viejo (Head Start Site)", "7701 Krause Ave.", "Oakland", "CA", "94605", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", "(510) 615-5755", null, null, null, null, null, null, null, null, null, null, null, "37.762849", "-122.176491", [ null, "37.762849", "-122.176491", null, false ], null ]
+, [ 18, "88DDA15D-AA84-4C40-A9ED-FB6B12DCE0E0", 18, 1366846083, "700497", 1366846083, "700497", "{\n}", "Assumption School", "1100 Fulton Avenue", "San Leandro", "CA", "94577", "Assumption School", "Jean Schroeder", "(510) 357-8772 or (510) 357-8784", "(925) 837-6005", "Bob Senna (Nick Lima)", "(510) 783-2884 ((510) 347-1132)", "(510) 352-4462 ((510) 483-9727)", "241", null, "Yes", "14", null, null, "Yes", "Yes", "37.7202544", "-122.1361139", [ null, "37.7202544", "-122.1361139", null, false ], null ]
+, [ 19, "D6B8861F-2BDB-43E1-8BFD-F9C66A0D8BCB", 19, 1366846083, "700497", 1366846083, "700497", "{\n}", "Augustin Bernal", "8200 Golden Eagle Way", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "1500", null, "Yes", "2", null, null, "No", null, "37.636211", "-121.904494", [ null, "37.636211", "-121.904494", null, false ], null ]
+, [ 20, "9ED05F56-A04E-400E-8395-9CD04AF6708A", 20, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bay Elementary School", "2001 Bockman Rd.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Janet Preston - Principal", "(510) 317-4300", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6722317", "-122.1472145", [ null, "37.6722317", "-122.1472145", null, false ], null ]
+, [ 21, "5827F888-16A8-4D99-9CA7-4BF925728582", 21, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bay Farm Elementary School", "200 Aughinbaugh", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Beverly Rothenberg", "(510) 337-4010", "(510) 654-0315 or (510) 448-7271 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.7437153", "-122.2513869", [ null, "37.7437153", "-122.2513869", null, false ], null ]
+, [ 22, "F1274701-CCB1-4CF9-A902-0F8F917EBDF4", 22, 1366846083, "700497", 1366846083, "700497", "{\n}", "Beth Eden Baptist Church", "10th and Adeline", "Oakland", "CA", "94607", "Beth Eden Baptist Church", null, "(510) 444-1625", null, null, null, null, null, null, null, null, null, null, null, null, "37.806738", "-122.287964", [ null, "37.806738", "-122.287964", null, false ], null ]
+, [ 23, "3312F895-E70A-44F8-8627-3ED2510CAF9B", 23, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bethlehem Lutheran Church", "959 12th St.", "Oakland", "CA", "94607", "Bethlehem Lutheran Church", null, "(510) 452-2245", null, null, null, null, null, null, null, null, null, null, null, null, "37.8536111", "-122.2602778", [ null, "37.8536111", "-122.2602778", null, false ], null ]
+, [ 24, "1CC076C7-4183-48C7-84F5-9A5DB2E19564", 24, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bicentennial Park", "2401 Santa Rita Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "1416", null, "No", null, null, null, "No", null, "37.682986", "-121.8766234", [ null, "37.682986", "-121.8766234", null, false ], null ]
+, [ 25, "123477CA-3959-4E7C-AAE1-4DE988A15382", 25, 1366846083, "700497", 1366846083, "700497", "{\n}", "Birch Grove Community Park", "Birch Street/Robertson Avenue", "Newark", "CA", "94560", "City of Newark", "Darryl L. Reina", "(510) 745-1124", "(510) 790-0257", "David Zehnder", "(510) 745-1124", "(925) 820-7580", null, "14 acres", "Yes", "2", null, null, "No", "Yes", "37.531702", "-122.016052", [ null, "37.531702", "-122.016052", null, false ], null ]
+, [ 26, "20B20D08-6955-46D0-A68B-151DC664409F", 26, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bohannon Middle School (and Continuing Ed)", "800 Bockman Rd.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Sheryl Cambra - Principal", "(510) 317-3800", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.670797", "-122.127512", [ null, "37.670797", "-122.127512", null, false ], null ]
+, [ 27, "AC9B6452-2B4D-4F1E-AC28-ECFF4D853E03", 27, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bret Harte Middle School", "1047 E Street", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "500", null, "Yes", "16", null, null, "Yes", "Yes", "37.67014", "-122.079316", [ null, "37.67014", "-122.079316", null, false ], null ]
+, [ 28, "1CD8BDD2-2CC2-4B99-837F-7D7ABE6E9731", 28, 1366846083, "700497", 1366846083, "700497", "{\n}", "Bret Harte Middle School", "3700 Coolidge Ave.", "Oakland", "CA", "94602", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Mary Hamadeh - Principal", "(510) 879-2060", null, null, null, null, null, null, null, null, null, "37.811005", "-122.203074", [ null, "37.811005", "-122.203074", null, false ], null ]
+, [ 29, "E3FD0674-543A-4DC9-8B7B-6B130C269D11", 29, 1366846083, "700497", 1366846083, "700497", "{\n}", "Brookfield Village Park", "9175 Edes Ave.", "Oakland", "CA", "94603", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", null, "(510) 568-6924", null, null, null, null, null, null, null, null, null, null, "37.738034", "-122.189514", [ null, "37.738034", "-122.189514", null, false ], null ]
+, [ 30, "048445CA-C696-4978-A8A9-EB7CB658CA77", 30, 1366846083, "700497", 1366846083, "700497", "{\n}", "Calvin Simmons Jr. High", "2101 35th Ave.", "Oakland", "CA", "94601", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Robert Caraveo - Principal", "(510) 879-2050", null, null, null, null, null, null, null, null, null, "37.784322", "-122.216703", [ null, "37.784322", "-122.216703", null, false ], null ]
+, [ 31, "CE45C85F-F947-4B48-BF2E-ECD3695130AA", 31, 1366846083, "700497", 1366846083, "700497", "{\n}", "Canyon Middle School", "19600 Cull  Canyon Rd.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Kate Kaufman - Principal", "(510) 538-8833", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7054451", "-122.0514471", [ null, "37.7054451", "-122.0514471", null, false ], null ]
+, [ 32, "1B1ED017-9BCA-4657-B826-8DC51C4D3869", 32, 1366846083, "700497", 1366846083, "700497", "{\n}", "Carter Middle", "4521 Webster St.", "Oakland", "CA", "94609", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "George L. Jasper - Principal", "(510) 879-2140", null, null, null, null, null, null, null, null, null, "37.833383", "-122.260112", [ null, "37.833383", "-122.260112", null, false ], null ]
+, [ 33, "5C3C74FF-49DB-48F9-BB6A-21C21D0D2277", 33, 1366846083, "700497", 1366846083, "700497", "{\n}", "Casa Verde Park", "3161 San Juan Place", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "11.92 acres", "Yes", "3", null, null, "No", "Yes", "37.5943789", "-122.0663515", [ null, "37.5943789", "-122.0663515", null, false ], null ]
+, [ 34, "9147B6E2-B78F-4731-806D-AC61E53E008B", 34, 1366846083, "700497", 1366846083, "700497", "{\n}", "Castlemont High", "8601 MacArthur Blvd.", "Oakland", "CA", "94605", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Ellen Posey - Principal", "(510) 879-3010", null, null, null, null, null, null, null, null, null, "37.758269", "-122.16338", [ null, "37.758269", "-122.16338", null, false ], null ]
+, [ 35, "B7C4E4F4-286B-4E22-B6C5-37A86B21DD41", 35, 1366846083, "700497", 1366846083, "700497", "{\n}", "Castro Valley Elementary School", "20185 San Miguel Ave.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Pamela Miller - Principal", "(510) 537-1919", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.69793", "-122.081384", [ null, "37.69793", "-122.081384", null, false ], null ]
+, [ 36, "D72EBF7B-CBCF-4D21-BF1A-41C07E4AAF45", 36, 1366846083, "700497", 1366846083, "700497", "{\n}", "Castro Valley High School", "19400 Santa Maria Ave.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Leslie Rothwell - Principal", "(510) 537-5910", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7037", "-122.0781134", [ null, "37.7037", "-122.0781134", null, false ], null ]
+, [ 37, "8A341AF4-FEF6-4DBC-B008-C11787279C14", 37, 1366846083, "700497", 1366846083, "700497", "{\n}", "Cedar Rose Park", "1300 Rose Street", "Berkeley", "CA", "94702", "City of Berkeley", "Lisa Caronna", "(510) 644-6943  x222", "(510) 840-0054 pgr", "Cliff Marchetti", "(510) 644-6943  x224", "(510) 448-5339 pgr", "3500", "4.94 acres", "Yes", "2", null, null, "No", "Yes", "37.876484", "-122.288307", [ null, "37.876484", "-122.288307", null, false ], null ]
+, [ 38, "BED67A6C-FC06-4302-98A2-8BDB7C067038", 38, 1366846083, "700497", 1366846083, "700497", "{\n}", "Centennial Park", "5353 Sunol Blvd.", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3376", null, "No", null, null, null, "No", null, "37.6618762", "-122.0963524", [ null, "37.6618762", "-122.0963524", null, false ], null ]
+, [ 39, "611E32D3-6E13-48D4-A2D5-4F0257F1613C", 39, 1366846083, "700497", 1366846083, "700497", "{\n}", "Centerville Community Center", "3355 Country Drive", "Fremont", "CA", "94538", "City of Fremont", "Kelly King", "(510) 791-4324", "(510) 742-5169", "Francis Mason", "(510) 791-4324", "(510) 451-1669", "350", null, "Yes", "10", null, null, "Yes", "Yes", "37.554736", "-121.989024", [ null, "37.554736", "-121.989024", null, false ], null ]
+, [ 40, "D84F27B3-D884-49F3-A927-7F29353232B3", 40, 1366846083, "700497", 1366846083, "700497", "{\n}", "Centerville Junior High School", "37720 Fremont Blvd.", "Fremont", "CA", "94538", "Fremont Unified School District", "Garo Mirigan, Principal", "(510) 795-5088", "(510) 792-7583", "Pat Canright, Custodian", "(510) 795-5088", "(510) 455-8438", "1000", null, "Yes", "16", null, null, "Yes", "Yes", "37.5561333", "-122.0006585", [ null, "37.5561333", "-122.0006585", null, false ], null ]
+, [ 41, "A1D1796F-78F0-491A-89A8-177130586F11", 41, 1366846083, "700497", 1366846083, "700497", "{\n}", "Centro de Servicios Resource Center", "505 H Street", "Union City", "CA", "94587", "City of Union City", "Police Chief Al Guzman", "(510) 471-3232 x251", "Call dispatch to locate.", "Officer Mark Quindoy", "(510) 471-3232 x243", "Call dispatch to locate.", null, null, "Yes", "3", null, null, "Yes", "Yes", "37.599851", "-122.018345", [ null, "37.599851", "-122.018345", null, false ], null ]
+, [ 42, "0C1DB469-E204-49F8-BD45-2853231BF033", 42, 1366846083, "700497", 1366846083, "700497", "{\n}", "Century House", "2401 Santa Rita Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "68", null, "Yes", "2", null, null, "Yes", null, "37.683045", "-121.876247", [ null, "37.683045", "-121.876247", null, false ], null ]
+, [ 43, "89D915D9-5A7F-4A41-9E10-48C4D9A82179", 43, 1366846083, "700497", 1366846083, "700497", "{\n}", "Chabot College", "25555 Hesperian Blvd.", "Hayward", "CA", "94541", "Chabot/Las Positas Community College District", "Bob Loeffler", "(510) 723-6618", null, "Terrance Burges", "(510) 723-6640", null, "1740", null, "Yes", "193", null, null, "Yes", "Yes", "37.6427398", "-122.1062137", [ null, "37.6427398", "-122.1062137", null, false ], null ]
+, [ 44, "442B46CD-C595-4919-9111-2C77460313A7", 44, 1366846083, "700497", 1366846083, "700497", "{\n}", "Chabot Elementary School", "19104 Lake Chabot Rd.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Allen Honda - Principal", "(510) 537-2342", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.8500286", "-122.2428819", [ null, "37.8500286", "-122.2428819", null, false ], null ]
+, [ 45, "553B52F2-9CDD-41E9-96D4-CC4B17FC1A68", 45, 1366846083, "700497", 1366846083, "700497", "{\n}", "Chipman Middle School", "401 Pacific Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Barbara Manning", "(510) 748-4017", "(510) 521-8037", "175", null, "Yes", "2", null, null, "Yes", "Yes", "37.7767949", "-122.2853032", [ null, "37.7767949", "-122.2853032", null, false ], null ]
+, [ 46, "A032FB04-CB6F-49FA-A742-09B303FB442D", 46, 1366846083, "700497", 1366846083, "700497", "{\n}", "Christensen Middle School", "5757 Haggin Oaks Drive", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Bruce Chappell, Principal", "(925) 606-4702", "(925) 743-3884", "Alice Arguello", "(925) 606-4702", "(925) 373-7863", "622", null, "Yes", "16", null, null, "Yes", "Partial", "37.72615", "-121.72887", [ null, "37.72615", "-121.72887", null, false ], null ]
+, [ 47, "ADF54FC8-F787-484E-BE96-7649ADF2C2E7", 47, 1366846083, "700497", 1366846083, "700497", "{\n}", "City Gymnasium #1", "5001 Case Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "500", null, "Yes", "2", null, null, "No", null, "37.653972", "-121.883034", [ null, "37.653972", "-121.883034", null, false ], null ]
+, [ 48, "01B25DDF-E18D-4D8E-9922-E23019DBE8D4", 48, 1366846083, "700497", 1366846083, "700497", "{\n}", "City Gymnasium #2", "4900 Valley Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "450", null, "Yes", "2", null, null, "No", null, "37.67551", "-121.882712", [ null, "37.67551", "-121.882712", null, false ], null ]
+, [ 49, "DE9BEE58-99E2-4176-8E61-C4CE8484651B", 49, 1366846083, "700497", 1366846083, "700497", "{\n}", "City Library", "4842 Bernal Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "63", null, "Yes", "2", null, null, "Yes", null, "37.656783", "-121.881049", [ null, "37.656783", "-121.881049", null, false ], null ]
+, [ 50, "DBF744C3-D260-41B4-ABB3-0D92A34E65DB", 50, 1366846083, "700497", 1366846083, "700497", "{\n}", "Civic Park", "100 Main Street", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "436", null, "No", null, null, null, "No", null, "37.656894", "-121.878549", [ null, "37.656894", "-121.878549", null, false ], null ]
+, [ 51, "5B1BA63C-1235-4439-ACDE-89CC50785C15", 51, 1366846083, "700497", 1366846083, "700497", "{\n}", "Claremont Middle School", "5750 College Ave.", "Oakland", "CA", "94618", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Dorothy Dowell-Wiggins - Principal", "(510) 879-2010", null, null, null, null, null, null, null, null, null, "37.8454812", "-122.2512698", [ null, "37.8454812", "-122.2512698", null, false ], null ]
+, [ 52, "CC5CE1BB-6480-4910-847E-158B736C2326", 52, 1366846083, "700497", 1366846083, "700497", "{\n}", "Codornices Park", "1201 Euclid Ave.", "Berkeley", "CA", "94708", "City of Berkeley", "Lisa Caronna", "(510) 644-6943  x222", "(510) 840-0054 pgr", "Cliff Marchetti", "(510) 644-6943  x224", "(510) 448-5339 pgr", "5000", "10.6 acres", "Yes", "2", null, null, "No", "Yes", "37.8857588", "-122.2613579", [ null, "37.8857588", "-122.2613579", null, false ], null ]
+, [ 53, "2E61D17F-C9BE-4DF6-846C-C2FBBC4A98C1", 53, 1366846083, "700497", 1366846083, "700497", "{\n}", "Colonial Acres Elementary School", "17115 Meekland Ave.", "Hayward", "CA", "94541", "San Lorenzo School District", "Terry Quesinberry - Principal", "(510) 317-4500", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6831993", "-122.1168827", [ null, "37.6831993", "-122.1168827", null, false ], null ]
+, [ 54, "678A6D45-42A8-4B19-AA9F-37C6919E5ABB", 54, 1366846083, "700497", 1366846083, "700497", "{\n}", "Columbus School Park", "2240 9th Street", "Berkeley", "CA", "94710", "City of Berkeley", "Lisa Caronna", "(510) 644-6943 x222", "(510) 840-0054 pgr", "Cliff Marchetti", "(510) 644-6943 x224", "(510) 448-5339 pgr", "400", null, "No", null, null, null, "No", "Yes", "37.864458", "-122.293414", [ null, "37.864458", "-122.293414", null, false ], null ]
+, [ 55, "1EB54A72-3B7B-40D7-8DBA-83DA812B001C", 55, 1366846083, "700497", 1366846083, "700497", "{\n}", "Community Center", "1249 Marin Ave.", "Albany", "CA", "94706", "City of Albany", "John Medlock", "(510) 524-9283", null, null, null, null, "65", null, "Yes", "8", null, null, "Yes", null, "37.887696", "-122.293113", [ null, "37.887696", "-122.293113", null, false ], null ]
+, [ 56, "99B3B7BA-1A3A-48AC-82C3-A9CD40938FE0", 56, 1366846083, "700497", 1366846083, "700497", "{\n}", "Contempo Park", "32300 Meteor Drive", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "9.21 acres", "Yes", "3", null, null, "No", "Yes", "37.5843792", "-122.0694071", [ null, "37.5843792", "-122.0694071", null, false ], null ]
+, [ 57, "46EDDB2D-9234-4071-BF9D-F382151C57E8", 57, 1366846083, "700497", 1366846083, "700497", "{\n}", "Cornell Elementary School", "920 Talbot Avenue", "Albany", "CA", "94706", "Albany Unified School District", "Allan Shrafman", "(510) 435-7718", "(510) 525-3328", "Ed Nadzan", "(510) 559-6510", "(510) 522-5563", null, null, "Yes", null, null, null, "Yes", null, "37.88958", "-122.295227", [ null, "37.88958", "-122.295227", null, false ], null ]
+, [ 58, "4255EF0F-03FA-49D4-9B3B-8103EE4F5FA0", 58, 1366846083, "700497", 1366846083, "700497", "{\n}", "Corvallis Elementary School", "14790 Corvallis St.", "San Leandro", "CA", "94579", "San Lorenzo School District", "Gail Drake - Principal", "(510) 317-4900", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6971245", "-122.1514695", [ null, "37.6971245", "-122.1514695", null, false ], null ]
+, [ 59, "2A5873DF-355F-41D0-91C1-12406590D5F1", 59, 1366846083, "700497", 1366846083, "700497", "{\n}", "Creekside Middle School", "19722 Center St.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Fred Barreiro - Principal", "(510) 247-0665", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6992744", "-122.0598595", [ null, "37.6992744", "-122.0598595", null, false ], null ]
+, [ 60, "91A754AD-B4E2-44D8-96E4-68BAA43A5EFA", 60, 1366846083, "700497", 1366846083, "700497", "{\n}", "de Fremery Recreation Center", "1651 Adeline St.", "Oakland", "CA", "94607", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", null, null, "(510) 238-7739", null, null, null, null, null, null, null, null, null, "37.811434", "-122.285579", [ null, "37.811434", "-122.285579", null, false ], null ]
+, [ 61, "585EB933-E061-4B47-8A1B-8090C019D1CD", 61, 1366846083, "700497", 1366846083, "700497", "{\n}", "Del Prado Park", "6701 Hansen Drive", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "4356", null, "No", null, null, null, "No", null, "37.6693755", "-121.9055132", [ null, "37.6693755", "-121.9055132", null, false ], null ]
+, [ 62, "29554724-CF20-4832-B2DD-91D6BF080D5D", 62, 1366846083, "700497", 1366846083, "700497", "{\n}", "Del Rey Elementary School", "1510 Via Sonya", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Judy Thude - Principal", "(510) 317-5000", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6683691", "-122.1376234", [ null, "37.6683691", "-122.1376234", null, false ], null ]
+, [ 63, "72D8A2D4-8715-4CB3-AA2A-269782172C1C", 63, 1366846083, "700497", 1366846083, "700497", "{\n}", "Del Valle Continuation High School", "2253 Fifth Street", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Fred Quarterman, Principal", "(925) 606-4709", "(925) 455-1921", "Charles Hendrick, Head Custodian", "(925) 606-4709", "(925) 449-4266", "618", null, "Yes", "5", null, null, "No", "Partial", "37.6786281", "-121.7664752", [ null, "37.6786281", "-121.7664752", null, false ], null ]
+, [ 64, "B989BA25-E41C-46F2-B047-9A4E7C95367D", 64, 1366846083, "700497", 1366846083, "700497", "{\n}", "District Office / Education Center", "685 E. Jack London Blvd.", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Dick Alford, Safety Supervisor", "(925) 606-3319", "(925) 463-0815", "Bob Bronzan, Deputy Superintendent", "(925) 606-3265", "(925) 447-5977", null, null, "Yes", "6", null, null, "Yes", "Partial", "37.688238", "-121.791742", [ null, "37.688238", "-121.791742", null, false ], null ]
+, [ 65, "381B7DEC-955B-4ACD-825E-10AB9C844E6B", 65, 1366846083, "700497", 1366846083, "700497", "{\n}", "Don Gaspar de Portola Elementary School", "2451 Portola Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Pat Heineman, Principal", "(925) 606-4743", "(925) 455-6320", "Patrick Picone, Head Custodian", "(925) 606-4743", "(209) 529-8865", "152", null, "Yes", "14", null, null, "Yes", "Partial", "37.6902872", "-121.7704751", [ null, "37.6902872", "-121.7704751", null, false ], null ]
+, [ 66, "692CC85A-CCDD-4D9C-9C1F-A121EC08E9F3", 66, 1366846083, "700497", 1366846083, "700497", "{\n}", "Doris Wong Lee Center", "468 - 470 Third St.", "Oakland", "CA", "94607", "Doris Wong Lee Center", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "37.796887", "-122.276183", [ null, "37.796887", "-122.276183", null, false ], null ]
+, [ 67, "21E8DEC1-C3AE-46AD-A660-DD68539593B8", 67, 1366846083, "700497", 1366846083, "700497", "{\n}", "Dublin Elementary School", "7997 Vomac Rd.", "Dublin", "CA", "94568", "Dublin Unified School District", "Tess Thomas, Principal", "(925) 833-1204", "(510) 247-9353", "Hassan Kalany, Custodian", "(925) 833-1204", "(925) 833-8605", "154", null, "Yes", null, "17", null, "Yes", "Yes", "37.7147742", "-121.9362295", [ null, "37.7147742", "-121.9362295", null, false ], null ]
+, [ 68, "2CD98178-8D1F-42EC-AF6F-094AF231B467", 68, 1366846083, "700497", 1366846083, "700497", "{\n  \"invalidCells\" : {\n    \"9814482\" : \"12\"\n  }\n}", "Dublin High School", "8151 Village Parkway", "Dublin", "CA", "94568", "Dublin Unified School District", "Dave Marken, Vice Principal", "(925) 833-3328", "(415) 334-3191", "Jimmy Smith, Custodian", "(925) 833-3345", "(925) 294-9022", "433", null, "Yes", null, "57", "12", "Yes", "Yes", "37.7200382", "-121.9245341", [ null, "37.7200382", "-121.9245341", null, false ], null ]
+, [ 69, "613CC073-85A1-4B3B-8617-D5392EF5720C", 69, 1366846083, "700497", 1366846083, "700497", "{\n}", "East Avenue Middle School", "3951 East Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Kate Kirkendall, Principal", "(925) 606-4711", "(925) 455-8151", "Harry Maloon, Head Custodian", "(925) 606-4711", "(925) 449-3867", "408", null, "Yes", "18", null, null, "Yes", "Partial", "37.6792942", "-121.7504442", [ null, "37.6792942", "-121.7504442", null, false ], null ]
+, [ 70, "85BF776E-027F-45D3-9D7F-2F4420C44027", 70, 1366846083, "700497", 1366846083, "700497", "{\n}", "Edendale Middle School", "16160 Ashland Ave.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Janet Clayton - Principal", "(510) 317-5100", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6955421", "-122.1178089", [ null, "37.6955421", "-122.1178089", null, false ], null ]
+, [ 71, "CD0D4E06-D13D-4682-9B68-DA71501576B9", 71, 1366846083, "700497", 1366846083, "700497", "{\n}", "Edison Elementary School", "2700 Buena Vista Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "David Dierking", "(510) 748-4002", "(510) 865-2112 or (510) 448-5292 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.7646528", "-122.23485", [ null, "37.7646528", "-122.23485", null, false ], null ]
+, [ 72, "8DCCCBDD-68FF-4E9E-A933-9EDCA0C09C1A", 72, 1366846083, "700497", 1366846083, "700497", "{\n}", "Edna M Brewer Middle School", "3748 13th Ave.", "Oakland", "CA", "94610", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Jane Searight - Acting Principal", "(510) 879-2100", null, null, null, null, null, null, null, null, null, "37.80382", "-122.2288998", [ null, "37.80382", "-122.2288998", null, false ], null ]
+, [ 73, "BFD2F0B4-3801-4F25-BC80-23562993D4B4", 73, 1366846083, "700497", 1366846083, "700497", "{\n}", "El Rancho Verde High School", "541 Blanche Street", "Hayward", "CA", "94541", "New Haven Unified School District", "Paul Chafer, Maintenance Ops Director", "(510) 471-3539 x11", "(510) 487-2087", "Ruben Uriarte", "(510) 471-5559 x14", "(510) 487-3686", "450", null, "Yes", "10", null, null, "Yes", "Yes", "37.615211", "-122.028839", [ null, "37.615211", "-122.028839", null, false ], null ]
+, [ 74, "D1D0EFED-8001-42E6-A3B5-AF6306F6F83A", 74, 1366846083, "700497", 1366846083, "700497", "{\n}", "Elmhurst Community Preparatory School", "1800 98th Ave.", "Oakland", "CA", "94603", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Frederick A. Arcenaux - Principal", "(510) 879-2020", null, null, null, null, null, null, null, null, null, "37.7456587", "-122.1656783", [ null, "37.7456587", "-122.1656783", null, false ], null ]
+, [ 75, "164A8722-02B6-402C-A7C8-42AF01A06F80", 75, 1366846083, "700497", 1366846083, "700497", "{\n}", "Emery High School", "1100 47th Street", "Emeryville", "CA", "94608", "Emery Unified School District", "Dr. J.L. Handy, Superintendent", "(510) 655-6936", "(510) 412-0736", "Dennis Campbell, Facility Manager", "(510) 652-1056", "(510) 632-2531", "300", null, "Yes", "8", null, null, "Yes", "Yes", "37.846596", "-122.277231", [ null, "37.846596", "-122.277231", null, false ], null ]
+, [ 76, "8FC0D9CA-2FFF-4DF9-B456-AD4CD822CB87", 76, 1366846083, "700497", 1366846083, "700497", "{\n}", "Emma C Smith Elementary School", "391 Ontario Drive", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Esther Riester, Principal", "(925) 606-4750", "(925) 436-7364", "Jim Ford, Head Custodian", "(925) 606-4750", "(925) 443-8648", "157", null, "Yes", "12", null, null, "Yes", "Partial", "37.6660174", "-121.7967654", [ null, "37.6660174", "-121.7967654", null, false ], null ]
+, [ 77, "C49D2CFC-7F25-404C-B1B0-95B8B6D809B4", 77, 1366846083, "700497", 1366846083, "700497", "{\n}", "Encinal High School", "2201 Encinal Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Michael Johnson", "(510) 337-7022", "(650) 577-9764 or (510) 448-5312 pgr", "425", null, "Yes", "4", null, null, "Yes", "Yes", "37.772506", "-122.2901929", [ null, "37.772506", "-122.2901929", null, false ], null ]
+, [ 78, "F39C54A9-796E-4F1A-837F-F56863462676", 78, 1366846083, "700497", 1366846083, "700497", "{\n}", "Fairlands Park", "W. Las Positas @ Gulfstream", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "13613", null, "No", null, null, null, "No", null, "37.6946522", "-121.8724566", [ null, "37.6946522", "-121.8724566", null, false ], null ]
+, [ 79, "8EAE93D9-4ADA-41F7-8DEE-BE644EB699F5", 79, 1366846083, "700497", 1366846083, "700497", "{\n}", "First Christian Church of Oakland", "29th & Fairmount Ave.", "Oakland", "CA", "94611", "First Christian Church of Oakland", null, "(510) 451-8822", null, null, null, null, null, null, null, null, null, null, null, null, "37.817146", "-122.260283", [ null, "37.817146", "-122.260283", null, false ], null ]
+, [ 80, "499D3392-C02E-416E-B064-6CCD6819688D", 80, 1366846083, "700497", 1366846083, "700497", "{\n}", "First Covenant Church", "4000 Redwood Rd.", "Oakland", "CA", "94619", "First Covenant Church", "Randy Roth, Senior Pastor", "(510) 531-5244", null, "Cathy Young - Secretary", "(510) 531-5244", null, "400", null, "Yes", "3", null, null, "Yes", "Yes", "37.798362", "-122.18443", [ null, "37.798362", "-122.18443", null, false ], null ]
+, [ 81, "6BA61D10-3181-437E-AAC1-2A22337BE61C", 81, 1366846083, "700497", 1366846083, "700497", "{\n}", "First Presbyterian Church", "2619 Broadway", "Oakland", "CA", "94612", "First Presbyterian Church", "Linda C. Loving, Pastor", "(510) 444-3555", null, null, null, null, null, null, null, null, null, null, null, null, "37.6852778", "-122.0722222", [ null, "37.6852778", "-122.0722222", null, false ], null ]
+, [ 82, "BBF76E47-08FD-4EC7-9D3E-7D9368D08114", 82, 1366846083, "700497", 1366846083, "700497", "{\n}", "Foster Elementary", "2850 West St.", "Oakland", "CA", "94608", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Mildred Gardner - Principal", "(510) 879-2080", null, null, null, null, null, null, null, null, null, "37.818604", "-122.273029", [ null, "37.818604", "-122.273029", null, false ], null ]
+, [ 83, "596A6BDC-074B-4066-B1CC-4089B5D138F2", 83, 1366846083, "700497", 1366846083, "700497", "{\n}", "Frances Albrier Community Center", "2800 Park St.", "Berkeley", "CA", "94702", "City of Berkeley", "Deborah Jordan", "(510) 644-8515", "(510) 635-5897", "Carl Smith", "(510) 644-8515", "(510) 524-8845", "200", null, "Yes", "4", null, null, "Yes", "Yes", "37.855553", "-122.283106", [ null, "37.855553", "-122.283106", null, false ], null ]
+, [ 84, "FD28CAF2-34FC-4C71-83F6-70E9940E1F0A", 84, 1366846083, "700497", 1366846083, "700497", "{\n}", "Franklin Elementary School", "1433 San Antonio Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Patti Klaus", "(510) 748-4004", "(510) 523-4230", "45", null, "No", null, null, null, "No", "Yes", "37.8738148", "-122.2910807", [ null, "37.8738148", "-122.2910807", null, false ], null ]
+, [ 85, "BCBC115C-E574-4275-BD6C-BA47C8FC9C19", 85, 1366846083, "700497", 1366846083, "700497", "{\n}", "Frederiksen Elementary School", "7243 Tamarack Drive", "Dublin", "CA", "94568", "Dublin Unified School District", "Diane Griffiths, Principal", "(925) 828-1037", "(925) 828-3921", "Manuel DeLeon, Head Custodian", "(925) 828-1037", "(925) 829-2599", "78", null, "Yes", null, "20", null, "Yes", "Yes", "37.7155", "-121.92296", [ null, "37.7155", "-121.92296", null, false ], null ]
+, [ 86, "2846DE4D-BBAF-4157-953A-C2E1BCF448D0", 86, 1366846083, "700497", 1366846083, "700497", "{\n}", "Fremont High", "4610 Foothill Blvd.", "Oakland", "CA", "94601", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Emily Gaddis - Acting Principal", "(510) 879-3020", null, null, null, null, null, null, null, null, null, "37.774383", "-122.209815", [ null, "37.774383", "-122.209815", null, false ], null ]
+, [ 87, "74520124-400A-497B-A6EA-716D07579D72", 87, 1366846083, "700497", 1366846083, "700497", "{\n}", "Fremont Main Library", "2400 Stevenson Blvd.", "Fremont", "CA", "94538", "Alameda County", "Lindley Ferchell", "(510) 745-1522", "(510) 583-6692", "Sandy Pantagius", "(510) 745-1510", "(510) 713-7767", "100", null, "Yes", "10", null, null, "Yes", null, "37.5488251", "-121.9691268", [ null, "37.5488251", "-121.9691268", null, false ], null ]
+, [ 88, "AF2A8E66-6B6C-4521-B1BC-5C8954FC189F", 88, 1366846083, "700497", 1366846083, "700497", "{\n}", "Frick Middle School", "2845 64th Ave.", "Oakland", "CA", "94605", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Gerald Wolfe - Acting Principal", "(510) 879-2030", null, null, null, null, null, null, null, null, null, "37.771452", "-122.1842737", [ null, "37.771452", "-122.1842737", null, false ], null ]
+, [ 89, "25351A99-4656-4514-A5E6-43E4370E29E9", 89, 1366846083, "700497", 1366846083, "700497", "{\n}", "George Miller Elementary School", "250 Singleton Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Neil Tam", "(510) 748-4011", "(510) 521-9566 or (510) 448-5039 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.786643", "-122.285998", [ null, "37.786643", "-122.285998", null, false ], null ]
+, [ 90, "AD34CEE2-5A78-4718-A53B-3EB90087A2A2", 90, 1366846083, "700497", 1366846083, "700497", "{\n}", "Granada High School", "400 Wall Street", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Kevin Drake, Principal", "(925) 606-4800", "(925) 443-1446", "Jeff Choate, Head Custodian", "(925) 606-4800", "(925) 373-8787", "1135", null, "Yes", "26", null, null, "Yes", "Partial", "37.6747337", "-121.7882112", [ null, "37.6747337", "-121.7882112", null, false ], null ]
+, [ 91, "F60268BB-6465-4A49-9E12-5C7BE78E7FEC", 91, 1366846083, "700497", 1366846083, "700497", "{\n}", "Greek Orthodox Church of the Ascension", "4700 Lincoln Ave.", "Oakland", "CA", "94602", "Greek Orthodox Church of the Ascension", null, "(510) 531-3400", null, null, null, null, null, null, null, null, null, null, null, null, "37.810416", "-122.200996", [ null, "37.810416", "-122.200996", null, false ], null ]
+, [ 92, "6C66E53C-4C76-4243-A94C-7FD2CBE6B267", 92, 1366846083, "700497", 1366846083, "700497", "{\n}", "Haight Elementary School", "2025 Santa Clara Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Mary McGuiness", "(510) 748-4005", "(510) 652-7059 or (510) 448-9613 pgr", "175", null, "Yes", "2", null, null, "Yes", "Yes", "37.769456", "-122.250858", [ null, "37.769456", "-122.250858", null, false ], null ]
+, [ 93, "A04708CA-3E93-4D56-BC1F-E0526C07E20B", 93, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hall Ranch Park", "4525 Dyer Street", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "6.2 acres", "Yes", "3", null, null, "No", "Yes", "37.584657", "-122.0769073", [ null, "37.584657", "-122.0769073", null, false ], null ]
+, [ 94, "DB877B86-3E2B-4336-8426-675ED8FA9902", 94, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hansen Park", "5697 Black Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "6425", null, "No", null, null, null, "No", null, "37.669931", "-121.894124", [ null, "37.669931", "-121.894124", null, false ], null ]
+, [ 95, "856A4E63-4BCB-4289-A6BB-774662B57C0C", 95, 1366846083, "700497", 1366846083, "700497", "{\n}", "Harvest Park", "1401 Harvest Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "1851", null, "No", null, null, null, "No", null, "37.6693754", "-121.8835681", [ null, "37.6693754", "-121.8835681", null, false ], null ]
+, [ 96, "540AE890-7FD6-4090-9437-563967D1FE91", 96, 1366846083, "700497", 1366846083, "700497", "{\n}", "Havenscourt Jr. High", "1390 66th Ave.", "Oakland", "CA", "94621", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Linda James - Principal", "(510) 879-2070", null, null, null, null, null, null, null, null, null, "37.761950", "-122.193528", [ null, "37.761950", "-122.193528", null, false ], null ]
+, [ 97, "6AC177F7-8AD6-426B-9813-8A66AD1A4545", 97, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hayward High School", "1633 East Avenue", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "1554", null, "Yes", "73", null, null, "Yes", "Partial", "37.6715549", "-122.0690141", [ null, "37.6715549", "-122.0690141", null, false ], null ]
+, [ 98, "80998152-AAAF-4E29-8F20-F0CECAA2BFA4", 98, 1366846083, "700497", 1366846083, "700497", "{\n}", "Heatherlark Park", "5700 Northway Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "653", null, "No", null, null, null, "No", null, "37.6754864", "-121.8938462", [ null, "37.6754864", "-121.8938462", null, false ], null ]
+, [ 99, "432FE3C2-0E98-4971-B858-E6FF4C742771", 99, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hesperian Elementary School", "620 Drew St.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Barbara DeBarger - Principal", "(510) 317-5200", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6932991", "-122.1243843", [ null, "37.6932991", "-122.1243843", null, false ], null ]
+, [ 100, "6DE2FCE1-C1B9-4E2C-B008-1078371A55C5", 100, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hillside Elementary School", "15980 Marcella St.", "San Leandro", "CA", "94578", "San Lorenzo School District", "William Wheat, Principal", "(510) 317-5300", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7019262", "-122.1168225", [ null, "37.7019262", "-122.1168225", null, false ], null ]
+, [ 101, "DF93D33C-D81D-478B-978F-EDEFB78291DB", 101, 1366846083, "700497", 1366846083, "700497", "{\n}", "Holiday Inn of Emeryville", "1800 Powell Street", "Emeryville", "CA", "94608", "John Q. Hammons", "Liz Tavernese, General Manager", "(510) 658-9300", "(510) 262-9563", "Amy Wilcox, Assistant General Manager", "(510) 658-9300", "(510) 215-2043", "300", null, "Yes", null, null, null, "Yes", "Yes", "37.83823", "-122.298499", [ null, "37.83823", "-122.298499", null, false ], null ]
+, [ 102, "AA00D2EB-F411-4FBC-8359-280CF05E0E37", 102, 1366846083, "700497", 1366846083, "700497", "{\n}", "Holly Community Center  510-471-6877", "31600 Alvarado Boulevard", "Union City", "CA", "94587", "City of Union City", "Valerie Crawford, Leisure Services Director", "(510) 471-3232 x312", "(510) 636-0981", "Corina Hahn, Recreation Supervisor", "(510) 471-3232 x277", null, "460", null, "Yes", "10", null, null, "Yes", "Yes", "37.591734", "-122.073042", [ null, "37.591734", "-122.073042", null, false ], null ]
+, [ 103, "8367C293-1FE9-4A41-89A7-AD063F2DF136", 103, 1366846083, "700497", 1366846083, "700497", "{\n}", "Hopkins Junior High School", "600 Driscoll Road", "Fremont", "CA", "94538", "Fremont Unified School District", "Tim Reichert, Principal", "(510) 656-3500", "650/328-1974", "Chris Berney", "(510) 656-3500", "(510) 657-0772", "1000", null, "Yes", "32", null, null, "Yes", "Yes", "37.5464567", "-121.9415819", [ null, "37.5464567", "-121.9415819", null, false ], null ]
+, [ 104, "1DAC29A1-4BFC-4F77-BE5C-985DCDB70C3C", 104, 1366846083, "700497", 1366846083, "700497", "{\n}", "Horner Junior High School", "41365 Chapel Way", "Fremont", "CA", "94538", "Fremont Unified School District", "Art Johnson, Principal", "(510) 656-4030", "(925) 371-6171", "Jill Popjoy, Custodian", "(510) 656-4030", "(510) 352-2299", "1000", null, "Yes", "12", null, null, "Yes", "Yes", "37.5285568", "-121.9634718", [ null, "37.5285568", "-121.9634718", null, false ], null ]
+, [ 105, "EE62B686-113C-4373-93C7-C2933F7A8711", 105, 1366846083, "700497", 1366846083, "700497", "{\n}", "Independent Elementary School", "21201 Independent School Rd.", "Castro Valley", "CA", "94552", "Castro Valley School District", "Robin Olivier - Principal", "(510) 537-9558", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6985146", "-122.0506147", [ null, "37.6985146", "-122.0506147", null, false ], null ]
+, [ 106, "D8A1D36F-5BF1-4B11-8F5F-D86D3B7671DF", 106, 1366846083, "700497", 1366846083, "700497", "{\n}", "Irvington Community Center", "41885 Blacow Road", "Fremont", "CA", "94538", "City of Fremont", "Katie Fox", "(510) 791-4166", "(510) 445-1859", "Jean Fay", "(510) 791-4166", "(510) 795-4257", "250", null, "Yes", "13", null, null, "Yes", "Yes", "37.522144", "-121.964874", [ null, "37.522144", "-121.964874", null, false ], null ]
+, [ 107, "610BA78E-5244-4FA3-B383-CCF58C57B979", 107, 1366846083, "700497", 1366846083, "700497", "{\n}", "Irvington High School", "41800 Blacow Road", "Fremont", "CA", "94538", "Fremont Unified School District", "Pete Murchison, Principal", "(510) 656-5711", "(510) 745-9191", "Arturo Quezada, Head Custodian", "(510) 656-5711", "(510) 659-0590", "1200", null, "Yes", "20", null, null, "Yes", "Yes", "37.5238153", "-121.9670629", [ null, "37.5238153", "-121.9670629", null, false ], null ]
+, [ 108, "A879CCF9-9130-4B41-ACED-5287B4D75A87", 108, 1366846083, "700497", 1366846083, "700497", "{\n}", "Island High School", "2437 Eagle Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Joe Angeles", "(510) 748-4023", "(510) 797-6748 or (510) 448-4331 pgr", "0", null, "No", null, null, null, "No", "No", "37.7863859", "-122.2863858", [ null, "37.7863859", "-122.2863858", null, false ], null ]
+, [ 109, "81B86C71-0071-4A79-B8E4-E4B6BE00C31B", 109, 1366846083, "700497", 1366846083, "700497", "{\n}", "Jackson Avenue Elementary School", "554 Jackson Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "David Cooper, Principal", "(925) 606-4717", "(925) 373-8254", "Joe Serna, Head Custodian", "(925) 606-4717", "(925) 449-7042", "129", null, "Yes", "12", null, null, "Yes", "Partial", "37.6852484", "-121.7420258", [ null, "37.6852484", "-121.7420258", null, false ], null ]
+, [ 110, "3824B018-37F5-441E-BD39-7C7A5ADF61BF", 110, 1366846083, "700497", 1366846083, "700497", "{\n}", "James Kenney Rec Center", "1720 8th Street", "Berkeley", "CA", "94710", "City of Berkeley", "Theodore Scates", "(510) 644-8511", "(510) 632-6171", "Ben Mitchell", "(510) 644-8511", "(510) 799-5877", "500", null, "Yes", "3", null, null, "Yes", "Yes", "37.871759", "-122.296633", [ null, "37.871759", "-122.296633", null, false ], null ]
+, [ 111, "AC60BCC1-8E71-4EE2-84D9-0C945CFA1CFA", 111, 1366846083, "700497", 1366846083, "700497", "{\n}", "James Kenny Park", "1720 Eighth Street", "Berkeley", "CA", "94710", "City of Berkeley", "Lisa Caronna", "(510) 644-6943  x222", "(510) 840-0054 pgr", "Cliff Marchetti", "(510) 644-6943  x224", "(510) 448-5339 pgr", "3200", "4.24 acres", "Yes", "2", null, null, "No", "Yes", "37.871827", "-122.296611", [ null, "37.871827", "-122.296611", null, false ], null ]
+, [ 112, "8EAEDD89-9970-426F-A908-A0077E7FAEB1", 112, 1366846083, "700497", 1366846083, "700497", "{\n}", "Jensen Ranch Elementary School", "2001 Carson Lane", "Castro Valley", "CA", "94552", "Castro Valley School District", "Elizabeth Blasquez - Principal", "(510) 537-6365", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7124349", "-122.0308337", [ null, "37.7124349", "-122.0308337", null, false ], null ]
+, [ 113, "C2A2946E-5E16-417A-A579-C27B84320388", 113, 1366846083, "700497", 1366846083, "700497", "{\n}", "Joe Michell Elementary School", "1001 Elaine Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Charles Young, Principal", "(925) 606-4738", null, "Sal Milan, Head Custodian", "(925) 606-4738", "(925) 373-0741", "215", null, "Yes", "14", null, null, "Yes", "Partial", "37.6690663", "-121.78346", [ null, "37.6690663", "-121.78346", null, false ], null ]
+, [ 114, "4E8C1B09-BBE7-43D0-8EE4-59EBF9F95233", 114, 1366846083, "700497", 1366846083, "700497", "{\n}", "John Belucchi Memorial Park", "4501 First Street", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "436", null, "No", null, null, null, "No", null, "37.659731", "-121.873732", [ null, "37.659731", "-121.873732", null, false ], null ]
+, [ 115, "6DA7C50C-65F5-4F0A-BAF5-D1EC95066E8F", 115, 1366846083, "700497", 1366846083, "700497", "{\n}", "John F Kennedy High School", "39999 Blacow Road", "Fremont", "CA", "94538", "Fremont Unified School District", "Aurora Quevedo", "(510) 657-4070", "(408) 223-2482", "Mike Crosetti", "(510) 657-4070", "(510) 490-5955", "1000", null, "Yes", "39", null, null, "Yes", "Yes", "37.5284516", "-121.9866617", [ null, "37.5284516", "-121.9866617", null, false ], null ]
+, [ 116, "E5B5E6E6-8D20-4085-9A6E-F51B6DCCFBBA", 116, 1366846083, "700497", 1366846083, "700497", "{\n}", "Junction Avenue Middle School", "298 Junction Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Vicki Scudder, Principal", "(925) 606-4720", "(925) 846-1755", "Daryl Cota, Head Custodian", "(925) 606-4720", "209/835-8058", "560", null, "Yes", "18", null, null, "Yes", "Partial", "37.6875571", "-121.7663228", [ null, "37.6875571", "-121.7663228", null, false ], null ]
+, [ 117, "6B62719F-0955-4469-B703-AA26E2212422", 117, 1366846083, "700497", 1366846083, "700497", "{\n}", "Kennedy Community Center  510-489-0360", "1333 Decoto Road", "Union City", "CA", "94587", "City of Union City", "Valerie Crawford, Leisure Services Director", "(510) 471-3232 x312", "(510) 636-0981", "Scott Ferris, Recreation Supervisor", "(510) 471-3232 x328", null, "245", null, "Yes", "3", null, null, "Yes", "Yes", "37.591512", "-122.021488", [ null, "37.591512", "-122.021488", null, false ], null ]
+, [ 118, "2289F4F0-270C-443B-A0FE-DB6FABFF4D3A", 118, 1366846083, "700497", 1366846083, "700497", "{\n}", "Kennedy Park", "1333 Decoto Road", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "10.46 acres", "Yes", "3", null, null, "No", "Yes", "37.592296", "-122.020782", [ null, "37.592296", "-122.020782", null, false ], null ]
+, [ 119, "10F526A3-F548-4A26-A9E6-E32405ABB28A", 119, 1366846083, "700497", 1366846083, "700497", "{\n}", "King Estates", "8251 Fontaine St.", "Oakland", "CA", "94605", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Joslin Johnson - Principal", "(510) 879-2160", null, null, null, null, null, null, null, null, null, "37.766208", "-122.154454", [ null, "37.766208", "-122.154454", null, false ], null ]
+, [ 120, "B2F88716-C882-43CD-B6DC-6988EF928F3A", 120, 1366846083, "700497", 1366846083, "700497", "{\n}", "Kottinger Community Park & Kottinger East", "1000 Kottinger Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "9365", null, "No", null, null, null, "No", null, "37.656843", "-121.85971", [ null, "37.656843", "-121.85971", null, false ], null ]
+, [ 121, "3AC8BF4B-8510-43A9-A8D3-E66BB89AB575", 121, 1366846083, "700497", 1366846083, "700497", "{\n}", "Kottinger Village Park", "4100 Vineyard Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "4356", null, "No", null, null, null, "No", null, "37.6624311", "-121.8666231", [ null, "37.6624311", "-121.8666231", null, false ], null ]
+, [ 122, "2A8DC735-0F78-4576-8805-6E6159E9C9AC", 122, 1366846083, "700497", 1366846083, "700497", "{\n}", "La Loma Park", "13339 La Loma at Glendale", "Berkeley", "CA", "94708", "City of Berkeley", "Lisa Caronna", "(510) 644-6943  x222", "(510) 840-0054", "Cliff Marchetti", "(510) 644-6943  x224", "(510) 448-5339 pgr", "2500", "5.61 acres", "Yes", "2", null, null, "No", "Yes", "37.8822222", "-122.2586111", [ null, "37.8822222", "-122.2586111", null, false ], null ]
+, [ 123, "24DB55F1-F445-4897-9503-03A1C6D52A2C", 123, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lakeshore Baptist Church", "3534 Lakeshore Ave.", "Oakland", "CA", "94610", "Lakeshore Baptist Church", "Rev. H. James Hopkins", "(510) 893-2484", null, null, null, null, null, null, null, null, null, null, null, null, "37.812078", "-122.241272", [ null, "37.812078", "-122.241272", null, false ], null ]
+, [ 124, "CAA93108-0260-493C-9DE1-47A70F6814FB", 124, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lakeside  Baptist Church & Ethnic Minsitries Center", "219 E. 15th St.", "Oakland", "CA", "94606", "Lakeside  Baptist Church & Ethnic Minsitries Center", null, "(510) 444-4990", null, null, null, null, null, null, null, null, null, null, null, null, "37.798159", "-122.254983", [ null, "37.798159", "-122.254983", null, false ], null ]
+, [ 125, "4B098DE6-AB69-4BC1-9275-8F3DA822CD3C", 125, 1366846083, "700497", 1366846083, "700497", "{\n}", "Leo R Croce Elementary School", "5650 Scenic Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Fred Cariss, Principal", "(925) 606-4706", "(925) 443-2694", "Vicente Meneses", "(925) 606-4706", null, "261", null, "Yes", "21", null, null, "Yes", "Partial", "37.7176605", "-121.7288335", [ null, "37.7176605", "-121.7288335", null, false ], null ]
+, [ 126, "231F8131-C354-4FDB-9508-D432E135F7AA", 126, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lincoln Middle School", "1250 Fernside Blvd.", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Keith Nomura", "(510) 748-4018", "(510) 601-6591 or (510) 425-5133 pgr", "175", null, "Yes", "2", null, null, "No", "Yes", "37.7525354", "-122.2309205", [ null, "37.7525354", "-122.2309205", null, false ], null ]
+, [ 127, "8C226480-C7ED-461E-A486-0D3075095205", 127, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lincoln Square Recreation Center", "250 10th St.", "Oakland", "CA", "94607", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", "(510) 238-7738", null, null, null, null, null, null, null, null, null, null, null, "37.800227", "-122.268523", [ null, "37.800227", "-122.268523", null, false ], null ]
+, [ 128, "5262C0B0-C4EB-4E6C-B7D3-3FB4BDE2FCAB", 128, 1366846083, "700497", 1366846083, "700497", "{\n}", "Live Oak Rec Center", "1301 Shattuck Ave.", "Berkeley", "CA", "94709", "City of Berkeley", "Patricia Hirabara", "(510) 644-8513", "(510) 526-9110", "Marvin Buckley", "(510) 644-8513", null, "300", null, "Yes", "2", null, null, "Yes", "Yes", "37.884089", "-122.269167", [ null, "37.884089", "-122.269167", null, false ], null ]
+, [ 129, "D47AFF35-AC8F-44B0-87A3-67DF2190C5CB", 129, 1366846083, "700497", 1366846083, "700497", "{\n}", "Livermore High School", "600 Maple Street", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Sheila Cooper, Principal", "(925) 606-4812", "(925) 373-8254", "Bob Brown, Head Custodian", "(925) 606-4812", "209/892-1315", "1179", null, "Yes", "36", null, null, "Yes", "Partial", "37.6809543", "-121.7616952", [ null, "37.6809543", "-121.7616952", null, false ], null ]
+, [ 130, "1BA5FB04-213D-4852-82E6-B1684DE5EBCA", 130, 1366846083, "700497", 1366846083, "700497", "{\n}", "Longfellow Elementary School", "500 Pacific Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Michael Potmesil", "(510) 748-4008", "(510) 531-6445 or (510) 448-6317 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.775828", "-122.2817682", [ null, "37.775828", "-122.2817682", null, false ], null ]
+, [ 131, "C1BC3D17-B27E-4D0B-BCC1-5E72922038E0", 131, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lorenzo Manor Elementary School", "19250 Bengal Ave.", "Hayward", "CA", "94541", "San Lorenzo School District", "Eileen Blood-Golden - Principal", "(510) 317-5400", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6751436", "-122.1190892", [ null, "37.6751436", "-122.1190892", null, false ], null ]
+, [ 132, "54FFA973-33F3-472F-8FCC-1D8721D173A2", 132, 1366846083, "700497", 1366846083, "700497", "{\n}", "Los Cerritos Community Center", "3377 Alder Avenue", "Fremont", "CA", "94538", "City of Fremont", "Laurie Rogers", "(510) 791-4360", "(510) 796-6310", "Jenny Duffy", "(510) 494-4330 or (510) 791-4351", "(510) 490-4461", "100", null, "Yes", "6", null, null, "Yes", "Yes", "37.566941", "-122.011759", [ null, "37.566941", "-122.011759", null, false ], null ]
+, [ 133, "29ADDAEF-D595-40AD-81BB-7F0883691FD5", 133, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lowell Middle", "991 14th St.", "Oakland", "CA", "94607", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Joe Coats - principal", "(510) 879-2090", null, null, null, null, null, null, null, null, null, "37.808568", "-122.282728", [ null, "37.808568", "-122.282728", null, false ], null ]
+, [ 134, "3F6D7B8B-17A4-4278-BF0D-D716B252623B", 134, 1366846083, "700497", 1366846083, "700497", "{\n}", "Lum Elementary School", "1801 Sandcreek Way", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Marlene Grcevich", "(510) 748-4009", "(510) 522-0972 or (510) 448-4368", "125", null, "Yes", "2", null, null, "Yes", "Yes", "37.761603", "-122.259707", [ null, "37.761603", "-122.259707", null, false ], null ]
+, [ 135, "569E8466-80FB-4B95-BDAF-F94B21D75678", 135, 1366846083, "700497", 1366846083, "700497", "{\n}", "Madison Middle", "400 Capistrano Dr.", "Oakland", "CA", "94603", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Rosa James - Principal", "(510) 879-2150", null, null, null, null, null, null, null, null, null, "37.727529", "-122.177594", [ null, "37.727529", "-122.177594", null, false ], null ]
+, [ 136, "D9EDA73D-D8CB-4FE3-83D6-89B196EF6C87", 136, 1366846083, "700497", 1366846083, "700497", "{\n}", "Maintenance and Grounds Operations Department", "2801 and 2900 Ladd Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Steve Waters, Maintenance Supervisor", "(925) 606-3319", "(925) 766-2131", "Dick Alford, Safety Supervisor", "(925) 606-3319", "(925) 463-0815", null, null, "Yes", "5", null, null, "No", "Partial", "37.686574", "-121.764588", [ null, "37.686574", "-121.764588", null, false ], null ]
+, [ 137, "4CEFF22E-AA38-4596-84B4-01067606C96C", 137, 1366846083, "700497", 1366846083, "700497", "{\n}", "Manzanita Recreation Center", "2701 22nd Ave.", "Oakland", "CA", "94606", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", null, null, "(510) 535-5625", null, null, null, null, null, null, null, null, null, "37.794174", "-122.228032", [ null, "37.794174", "-122.228032", null, false ], null ]
+, [ 138, "8100FF5B-B121-41AD-A6D5-6CD51A4AEB86", 138, 1366846083, "700497", 1366846083, "700497", "{\n}", "Marina Community Center", "15301 Wicks Blvd.", "San Leandro", "CA", "94579", "City of San Leandro", "Sid Schoenfeld", "(510) 577-6081", "(510) 319-3413", "Mike Estrada", "(510) 577-3465", "(925) 833-0853", null, null, "Yes", "6", null, null, "Yes", "Yes", "37.686064", "-122.161711", [ null, "37.686064", "-122.161711", null, false ], null ]
+, [ 139, "7D7E1695-B064-4366-8BAA-63AA2C8A58C4", 139, 1366846083, "700497", 1366846083, "700497", "{\n}", "Marshall Elementary School", "20111 Marshall St.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Mark Croghan - Principal", "(510) 537-2431", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7459705", "-122.1413065", [ null, "37.7459705", "-122.1413065", null, false ], null ]
+, [ 140, "FBDCD5A1-0063-41BC-B265-C0622DA0FA68", 140, 1366846083, "700497", 1366846083, "700497", "{\n}", "Martin Luther King Jr Middle School", "26890 Holly Hill Avenue", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "770", null, "Yes", "29", null, null, "Yes", "Yes", "37.8812619", "-122.2771781", [ null, "37.8812619", "-122.2771781", null, false ], null ]
+, [ 141, "1738C7C8-4B5D-4CAD-A855-CB51CAF6324E", 141, 1366846083, "700497", 1366846083, "700497", "{\n}", "Marylin Avenue Elementary School", "800 Marylin Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Joe Turnage, Principal", "(925) 606-4724", null, "Marianne Santos, Head Custodian", "(925) 606-4724", "(925) 443-2984", "221", null, "Yes", "10", null, null, "Yes", "Partial", "37.6844454", "-121.7862624", [ null, "37.6844454", "-121.7862624", null, false ], null ]
+, [ 142, "BC479E0C-5069-4620-96EF-91380DC1A509", 142, 1366846083, "700497", 1366846083, "700497", "{\n}", "McClymonds High", "2607 Myrtle St.", "Oakland", "CA", "94607", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Willie Hamilton - Principal", "(510) 879-3030", null, null, null, null, null, null, null, null, null, "37.817689", "-122.278608", [ null, "37.817689", "-122.278608", null, false ], null ]
+, [ 143, "5C6772D6-A9AD-44A8-A8BB-F7D41C6CCCA4", 143, 1366846083, "700497", 1366846083, "700497", "{\n}", "MCK Youth Services", "1730 Oregon", "Berkeley", "CA", "94703", "City of Berkeley", "Philip Coltan", "(510) 644-6226", null, "Baron Cope", "(510) 644-6226", null, null, null, "Yes", "2", null, null, "Yes", "Yes", "37.856784", "-122.273651", [ null, "37.856784", "-122.273651", null, false ], null ]
+, [ 144, "5DAA2967-8DAC-4242-9534-5D06BC88813A", 144, 1366846083, "700497", 1366846083, "700497", "{\n}", "McKinley Park", "519 Kottinger Drive", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "1500", null, "No", null, null, null, "No", null, "37.6596534", "-121.8657897", [ null, "37.6596534", "-121.8657897", null, false ], null ]
+, [ 145, "4B2D233D-B502-4B14-BAB6-3D06B857F00A", 145, 1366846083, "700497", 1366846083, "700497", "{\n}", "Meadowlark Park", "8200 Regency Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "5009", null, "No", null, null, null, "No", null, "37.664954", "-121.909888", [ null, "37.664954", "-121.909888", null, false ], null ]
+, [ 146, "ECAF9F38-02E7-4FCC-A4CD-64541A481F97", 146, 1366846083, "700497", 1366846083, "700497", "{\n}", "Meadows Park", "3201 W. Las Positas", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "4683", null, "No", null, null, null, "No", null, "37.696091", "-121.858669", [ null, "37.696091", "-121.858669", null, false ], null ]
+, [ 147, "FB383613-9BFB-446C-86B6-3EC29D358F8A", 147, 1366846083, "700497", 1366846083, "700497", "{\n}", "Mendenhall Middle School", "1701 El Padro Drive", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Mike Ettner, Principal", "(925) 606-4731", null, "Don Brown, Head Custodian", "(925) 606-4731", "(925) 373-9659", "453", null, "Yes", "23", null, null, "Yes", "Partial", "37.664623", "-121.793341", [ null, "37.664623", "-121.793341", null, false ], null ]
+, [ 148, "27D74324-B830-4571-BEF8-17014189CE37", 148, 1366846083, "700497", 1366846083, "700497", "{\n}", "Mission Hills Park", "600 Junipero", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "7623", null, "No", null, null, null, "No", null, "37.6502094", "-121.8727344", [ null, "37.6502094", "-121.8727344", null, false ], null ]
+, [ 149, "06CDF128-2A7F-4437-8BB9-54979956F380", 149, 1366846083, "700497", 1366846083, "700497", "{\n}", "Mission San Jose High School", "41717 Palm Avenue", "Fremont", "CA", "94538", "Fremont Unified School District", "Stuart Kew, Principal", "(510) 657-3600", "(925) 937-0186", "Sandy Prairie, Vice Principal", "(510) 657-3600", "(925) 837-2405", "1800", null, "Yes", "57", null, null, "Yes", "Yes", "37.5450568", "-121.9336725", [ null, "37.5450568", "-121.9336725", null, false ], null ]
+, [ 150, "E27C7705-216C-4307-9F56-7A0F00721C7D", 150, 1366846083, "700497", 1366846083, "700497", "{\n}", "Moller Park", "5500 Pleasant Hill Road", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "4356", null, "No", null, null, null, "No", null, "37.6877083", "-121.9296806", [ null, "37.6877083", "-121.9296806", null, false ], null ]
+, [ 151, "181B138A-71D7-4444-B452-967EE5AB00B4", 151, 1366846083, "700497", 1366846083, "700497", "{\n}", "Montera Middle School", "5555 Ascot Dr.", "Oakland", "CA", "94611", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Cheryl Rodby - Acting Principal", "(510) 879-2110", null, null, null, null, null, null, null, null, null, "37.819601", "-122.2014927", [ null, "37.819601", "-122.2014927", null, false ], null ]
+, [ 152, "0501D9B6-33C4-43E5-8248-B54C28D13D5D", 152, 1366846083, "700497", 1366846083, "700497", "{\n}", "Mount Eden High School", "2300 Panama St.", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "1549", null, "Yes", "70", null, null, "Yes", "Yes", "37.6248959", "-122.08967", [ null, "37.6248959", "-122.08967", null, false ], null ]
+, [ 153, "F4071E88-AABF-4E89-8DB6-8F4A31CD3134", 153, 1366846083, "700497", 1366846083, "700497", "{\n}", "Muirwood Park", "4701 Muirwood Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "12197", null, "Yes", "2", null, null, "No", null, "37.6832639", "-121.9166247", [ null, "37.6832639", "-121.9166247", null, false ], null ]
+, [ 154, "9585B215-6CC0-48B9-8AAC-2E72971742C4", 154, 1366846083, "700497", 1366846083, "700497", "{\n}", "Murray Elementary School", "8435 Davona Drive", "Dublin", "CA", "94568", "Dublin Unified School District", "Carolyn Nnaji, Principal", "(925) 828-2568", "(925) 833-9032", "Julito Montana, Head Custodian", "(925) 828-2568", "(925) 449-2275", "75", null, "Yes", null, "19", null, "Yes", "Yes", "37.7218196", "-121.9322251", [ null, "37.7218196", "-121.9322251", null, false ], null ]
+, [ 155, "8E49C1A6-3F39-467C-BA95-B5FB8E5AB54A", 155, 1366846083, "700497", 1366846083, "700497", "{\n}", "Nature House", "519 Kottinger Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "13", null, "Yes", "2", null, null, "No", null, "37.659377", "-121.866221", [ null, "37.659377", "-121.866221", null, false ], null ]
+, [ 156, "DF7C3894-12EA-4A56-AE07-7629FE52FAE7", 156, 1366846083, "700497", 1366846083, "700497", "{\n}", "Newark Community Center", "35501 Cedar Blvd.", "Newark", "CA", "94560", "City of Newark", "Darryl L. Reina", "(510) 745-1124", "(510) 790-0257", "David Zehnder", "(510) 745-1124", "(925) 820-7580", "200", null, "Yes", "5", null, null, "Catering", "Yes", "37.549760", "-122.041724", [ null, "37.549760", "-122.041724", null, false ], null ]
+, [ 157, "EF3A9EA6-CD15-4BEB-AE98-90340D4B43A6", 157, 1366846083, "700497", 1366846083, "700497", "{\n}", "Newark Community Park", "35501 Cedar Blvd.", "Newark", "CA", "94560", "City of Newark", "Darryl L. Reina", "(510) 745-1124", "(510) 790-0257", "David Zehnder", "(510) 745-1124", "(925) 820-7580", null, "16 acres", "Yes", "2", null, null, "No", "Yes", "37.5485475", "-122.0416288", [ null, "37.5485475", "-122.0416288", null, false ], null ]
+, [ 158, "041B31F3-EE34-4CE1-A39F-B219DB4B67D8", 158, 1366846083, "700497", 1366846083, "700497", "{\n}", "Newark Junior High School", "6201 Lafayette", "Newark", "CA", "94560", "City of Newark", "Paul Manley", "(510) 818-4272", "(510) 659-4314 pgr", "Lorenzo Legaspi", "(510) 818-4103", null, "1000", null, "Yes", null, null, null, "Yes", "Yes", "37.5417233", "-122.0405538", [ null, "37.5417233", "-122.0405538", null, false ], null ]
+, [ 159, "8E37C589-2DFC-46F3-BBAF-9BFD268A7340", 159, 1366846083, "700497", 1366846083, "700497", "{\n}", "Newark Memorial High School", "39375 Cedar Blvd.", "Newark", "CA", "94560", "City of Newark", "Paul Manley", "(510) 818-4272", "(510) 659-4314 pgr", "Lorenzo Legaspi", "(510) 818-4103", null, "1000", null, "Yes", null, null, null, "Yes", "Yes", "37.521205", "-122.0024841", [ null, "37.521205", "-122.0024841", null, false ], null ]
+, [ 160, "DE2E27B1-362A-4057-BF0F-5986DADFCE77", 160, 1366846083, "700497", 1366846083, "700497", "{\n}", "Nielsen Education Center", "7500 Amarillo Rd.", "Dublin", "CA", "94568", "Dublin Unified School District", "Marie Morgan", "(925) 828-2030", "(925) 743-9669", "Joyce Leal, Head Custodian", "(925) 828-2030", "(925) 443-9572", "67", null, "Yes", null, "28", null, "Yes", "Yes", "37.7064001", "-121.9423195", [ null, "37.7064001", "-121.9423195", null, false ], null ]
+, [ 161, "E89159D1-51E0-4263-983E-773A28D731FE", 161, 1366846083, "700497", 1366846083, "700497", "{\n}", "Nielson Park", "3800 Stoneridge", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "5336", null, "No", null, null, null, "No", null, "37.687973", "-121.870867", [ null, "37.687973", "-121.870867", null, false ], null ]
+, [ 162, "412A672B-38D1-4550-95CA-7131F3343BEB", 162, 1366846083, "700497", 1366846083, "700497", "{\n}", "North Berkeley Senior Center", "1901 Hearst", "Berkeley", "CA", "94708", "City of Berkeley", "Suzanne Ryan", "(510) 644-6107", "(510) 524-3241", "Maggie Cheng", "(510) 644-6107", "(510) 848-8311", "200", null, "Yes", "2", null, null, "Yes", "Yes", "37.873537", "-122.272664", [ null, "37.873537", "-122.272664", null, false ], null ]
+, [ 163, "16993827-CCD7-4795-938D-7410898099B9", 163, 1366846083, "700497", 1366846083, "700497", "{\n}", "Oakhill Park", "7600 Olive Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3267", null, "No", null, null, null, "No", null, "37.6743753", "-121.9166247", [ null, "37.6743753", "-121.9166247", null, false ], null ]
+, [ 164, "2D67FD9F-C5AC-45EA-8B6A-DF41288D36C1", 164, 1366846083, "700497", 1366846083, "700497", "{\n}", "Oakland High School", "1023 MacArthur Blvd.", "Oakland", "CA", "93610", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Gilbert Cho - Principal", "(510) 879-3040", null, null, null, null, null, null, null, null, null, "37.8044081", "-122.2367415", [ null, "37.8044081", "-122.2367415", null, false ], null ]
+, [ 165, "9B086EE7-C784-4E44-98F9-C1659CCE2111", 165, 1366846083, "700497", 1366846083, "700497", "{\n}", "Oakland Technical High School", "4351 Broadway", "Oakland", "CA", "94611", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Larry Todd - Principal", "(510) 879-3050", null, null, null, null, null, null, null, null, null, "37.8325152", "-122.2544144", [ null, "37.8325152", "-122.2544144", null, false ], null ]
+, [ 166, "41265A69-2D85-4478-AAD8-BA78761FD6A7", 166, 1366846083, "700497", 1366846083, "700497", "{\n}", "Oakland-Piedmont Jewish Community Services Center", "412 Monte Vista Ave.", "Oakland", "CA", "94611", "Oakland-Piedmont Jewish Community Services Center", null, "(510) 658-9222", null, null, null, null, null, null, null, null, null, null, null, null, "37.821892", "-122.248889", [ null, "37.821892", "-122.248889", null, false ], null ]
+, [ 167, "804FA16D-67EE-4593-8C87-5C30D8BE3F98", 167, 1366846083, "700497", 1366846083, "700497", "{\n}", "Ocean View Elementary School", "1000 Jackson Street", "Albany", "CA", "94706", "Albany Unified School District", "Allan Shrafman", "(510) 435-7718", "(510) 525-3328", "Bob Mickey", "(510) 528-6480", "(510) 525-8913", null, null, "Yes", null, null, null, "Yes", "Yes", "37.8869615", "-122.3012094", [ null, "37.8869615", "-122.3012094", null, false ], null ]
+, [ 168, "FEDD14B2-0402-4DCA-850A-2BF96EF3C048", 168, 1366846083, "700497", 1366846083, "700497", "{\n}", "Ohlone College Fremont Campus", "43600 Mission Blvd.", "Fremont", "CA", "94538", "Fremont - Newark Community", "James D. Triplett", "(510) 659-6111", "(510) 651-0867", "Simon Barros", "(510) 659-6105", "(510) 651-3646", "200", null, "Yes (Bldg #9)", "2", null, null, "Yes (Bldg #5)", "Yes", "37.5305058", "-121.9122693", [ null, "37.5305058", "-121.9122693", null, false ], null ]
+, [ 169, "D2A20F11-5703-4969-81B7-6CB45D1E643F", 169, 1366846083, "700497", 1366846083, "700497", "{\n}", "Old Alvarado/Cesar Chavez Park", "3871 Smith Street", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "4.28 acres", "Yes", "3", null, null, "No", "Yes", "37.59722", "-122.077783", [ null, "37.59722", "-122.077783", null, false ], null ]
+, [ 170, "87009574-B1E7-4630-B3BA-08800F1B07FC", 170, 1366846083, "700497", 1366846083, "700497", "{\n}", "Olive Hyde Community Center", "123 Washington Blvd.", "Fremont", "CA", "94538", "City of Fremont", "Kim Bach", "(510) 494-4228", "415/824-5610", "Gary Toledo", "(510) 494-4350", null, "35", null, "Yes", "1", null, null, "Yes", "Yes", "37.533393", "-121.920639", [ null, "37.533393", "-121.920639", null, false ], null ]
+, [ 171, "FCD049D4-262B-4237-AB81-90148A395049", 171, 1366846083, "700497", 1366846083, "700497", "{\n}", "Orloff Park", "1800 Santa Rita Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "7405", null, "No", null, null, null, "No", null, "37.6782639", "-121.870512", [ null, "37.6782639", "-121.870512", null, false ], null ]
+, [ 172, "9AED5B31-02F3-438F-876A-B5398A46C7EF", 172, 1366846083, "700497", 1366846083, "700497", "{\n}", "Otis Elementary School", "3010 Filmore Street", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Catherine Lyons", "(510) 748-4013", "(510) 769-6307", "125", null, "Yes", "2", null, null, "No", "Yes", "37.7540472", "-122.2385721", [ null, "37.7540472", "-122.2385721", null, false ], null ]
+, [ 173, "C43F9537-17A8-420B-9A05-F558D511C55A", 173, 1366846083, "700497", 1366846083, "700497", "{\n}", "Paden Elementary School", "444 Central Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Jane Golden", "(510) 748-4014", "(510) 895-4435 or (510) 448-2717 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.7709956", "-122.2836078", [ null, "37.7709956", "-122.2836078", null, false ], null ]
+, [ 174, "841046B4-DEFC-49A7-BB3F-C60927342CA3", 174, 1366846083, "700497", 1366846083, "700497", "{\n}", "Palomares Elementary School", "6395 Palo Verde Rd.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Elizabeth Blasquez - Principal", "(510) 582-4207", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6945339", "-122.0254163", [ null, "37.6945339", "-122.0254163", null, false ], null ]
+, [ 175, "A02F2457-5A8D-46DF-812A-E61F13F262AB", 175, 1366846083, "700497", 1366846083, "700497", "{\n}", "Piedmont Community Center", "711 Highland Avenue", "Piedmont", "CA", "94611", "City of Piedmont", "Mark Dreventhal", "(510) 420-3070", null, "City of Piedmont Police Department", "(510) 420-3000", null, "250", null, "Yes", "2", null, null, "Yes", "Partial", "37.823791", "-122.229813", [ null, "37.823791", "-122.229813", null, false ], null ]
+, [ 176, "25C4369B-8459-419E-B70F-2C247E0B7ED8", 176, 1366846083, "700497", 1366846083, "700497", "{\n}", "Pioneer Park/School", "4838 Blythe Street", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "4 acres", "No", null, null, null, "No", "Yes", "37.572387", "-122.070865", [ null, "37.572387", "-122.070865", null, false ], null ]
+, [ 177, "57F33077-65DA-443C-9900-09D2016A788F", 177, 1366846083, "700497", 1366846083, "700497", "{\n}", "Plymouth Congressional Church", "777 Oakland Ave.", "Oakland", "CA", "94611", "Plymouth Congressional Church", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "37.821587", "-122.248224", [ null, "37.821587", "-122.248224", null, false ], null ]
+, [ 178, "B3D48F12-BF00-4051-83E8-61BD14D08FDF", 178, 1366846083, "700497", 1366846083, "700497", "{\n}", "Proctor Elementary School", "17520 Redwood Rd.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Sandra Smith - Principal", "(510) 537-0630", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7162487", "-122.0728987", [ null, "37.7162487", "-122.0728987", null, false ], null ]
+, [ 179, "EAFD9E7F-A6EB-4DCF-B52B-838B1660E27D", 179, 1366846083, "700497", 1366846083, "700497", "{\n}", "Rainbow", "5800 International Blvd. (formerly E. 14th St.)", "Oakland", "CA", "94621", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", "(510) 615-5751", null, null, null, null, null, null, null, null, null, null, null, "37.765835", "-122.199901", [ null, "37.765835", "-122.199901", null, false ], null ]
+, [ 180, "0D92824F-7CA5-43A6-BA5D-B216F770ED25", 180, 1366846083, "700497", 1366846083, "700497", "{\n}", "Rancho Las Positas Elementary School", "401 E. Jack London Blvd.", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Bill Radulovich, Principal", "(925) 606-4748", "(925) 462-1448", "Del Malaca, Head Custodian", "(925) 606-4748", "(209) 982-9430", "279", null, "Yes", "10", null, null, "Yes", "Partial", "37.6880898", "-121.7966616", [ null, "37.6880898", "-121.7966616", null, false ], null ]
+, [ 181, "4AD90C73-4F79-43D3-A082-32BD2D2D939C", 181, 1366846083, "700497", 1366846083, "700497", "{\n}", "Recreational Sports Facility", "2301 Bancroft Way", "Berkeley", "CA", "94704", "Regents of UC", "Tom Klatt", "(510) 642-1258", "(510) 548-8746", "Treacy Malloy", "(510) 642-9036", "(510) 642-6760", "750", null, "Yes", "4", null, null, "No", "Yes", "37.8685371", "-122.2633024", [ null, "37.8685371", "-122.2633024", null, false ], null ]
+, [ 182, "C52FB6D8-EBC7-4784-9720-64349F56BEF7", 182, 1366846083, "700497", 1366846083, "700497", "{\n}", "Redwood Continuation High School and Alternative High School", "18400 Clifton Way", "Castro Valley", "CA", "94546", "Castro Valley School District", "Diana Levy - Principal", "(510) 537-3193", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7132937", "-122.0926202", [ null, "37.7132937", "-122.0926202", null, false ], null ]
+, [ 183, "E5575D49-3C17-47FB-B1CE-32F1A245F603", 183, 1366846083, "700497", 1366846083, "700497", "{\n}", "Redwood Heights", "3883 Aliso Ave.", "Oakland", "CA", "94619", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", "(510) 482-7827", null, null, null, "100", null, "Yes", "2", null, null, "No", "Yes", "37.7975", "-122.1883333", [ null, "37.7975", "-122.1883333", null, false ], null ]
+, [ 184, "D798F4A5-1641-462C-A6CD-E9326D7959BD", 184, 1366846083, "700497", 1366846083, "700497", "{\n}", "Regalia House", "4133 Regalia Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "52", null, "Yes", "2", null, null, "Yes", null, "37.662609", "-121.868179", [ null, "37.662609", "-121.868179", null, false ], null ]
+, [ 185, "7FAE2B24-9E18-4ACE-A291-CE1014C4E9E4", 185, 1366846083, "700497", 1366846083, "700497", "{\n}", "Roosevelt Middle School", "1926 19th Ave.", "Oakland", "CA", "94606", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Yvonne Allara - Principal", "(510) 879-2120", null, null, null, null, null, null, null, null, null, "37.78987", "-122.23747", [ null, "37.78987", "-122.23747", null, false ], null ]
+, [ 186, "8B40B3FB-2B3D-445D-A88E-539803238412", 186, 1366846083, "700497", 1366846083, "700497", "{\n}", "Roy Johnson High School / Adult School", "4400 Alma Ave.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Dobie Gelles -Principal", "(510) 537-3000 x1311", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.708332", "-122.071057", [ null, "37.708332", "-122.071057", null, false ], null ]
+, [ 187, "47315B55-15D6-4869-AF6A-2DE0EEB426F1", 187, 1366846083, "700497", 1366846083, "700497", "{\n}", "Ruggieri Senior Center  510-489-6629", "33997 Alvarado-Niles Road", "Union City", "CA", "94587", "City of Union City", "Valerie Crawford, Leisure Services Director", "(510) 471-3232 x312", "(510) 636-0981", "Larry Orozco, Recreation Supervisor", "(510) 471-3232 x492", null, "460", null, "Yes", "7", null, null, "Yes", "Yes", "37.588844", "-122.027863", [ null, "37.588844", "-122.027863", null, false ], null ]
+, [ 188, "91AFF406-397B-440E-ACB8-F34682032537", 188, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sacred Heart Church", "4025 Martin Luther King, Jr., Way", "Oakland", "CA", "94609", "Sacred Heart Church", null, "(510) 655-9209", null, null, null, null, null, null, null, null, null, null, null, null, "37.830096", "-122.268566", [ null, "37.830096", "-122.268566", null, false ], null ]
+, [ 189, "491BF470-B350-4E10-8AC1-B1A9C147B875", 189, 1366846083, "700497", 1366846083, "700497", "{\n}", "San Andreas Park", "31312 Santa Cruz Way", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "5.58 acres", "No", null, null, null, "No", "Yes", "37.5949344", "-122.0624625", [ null, "37.5949344", "-122.0624625", null, false ], null ]
+, [ 190, "51783FE1-0ECF-42C9-BDEB-D252E08D51E4", 190, 1366846083, "700497", 1366846083, "700497", "{\n}", "San Lorenzo High School", "50 E. Lewelling Blvd.", "San Lorenzo", "CA", "94580", "San Lorenzo School District", "Jerome Glenn - Principal", "(510) 317-3000", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.6877407", "-122.1217777", [ null, "37.6877407", "-122.1217777", null, false ], null ]
+, [ 191, "953D0441-E007-473B-9975-D7A15A0FF0DF", 191, 1366846083, "700497", 1366846083, "700497", "{\n}", "San Pablo Park", "2800 Park Street", "Berkeley", "CA", "94702", "City of Berkeley", "Lisa Caronna", "(510) 644-6943  x222", "(510) 840-0054 pgr", "Cliff Marchetti", "(510) 644-6943  x224", "(510) 448-5339 pgr", "7200", "12.95 acres", "Yes", "2", null, null, "No", "Yes", "37.8560375", "-122.2835805", [ null, "37.8560375", "-122.2835805", null, false ], null ]
+, [ 192, "DF459FEC-8590-46AE-8800-3728DAA8D199", 192, 1366846083, "700497", 1366846083, "700497", "{\n}", "Senior Center", "4321 Salem Street", "Emeryville", "CA", "94608", "City of Emeryville", "Mary Payne, Director", "(510) 596-3730", "(510) 339-1778", "Ellyn Bloomfield, Assistant Director", "(510) 596-3730", null, "200", null, "Yes", "4", null, null, "Yes", "Yes", "37.834027", "-122.279788", [ null, "37.834027", "-122.279788", null, false ], null ]
+, [ 193, "E312A10E-B82A-46EF-BAC1-FBCA72172E13", 193, 1366846083, "700497", 1366846083, "700497", "{\n}", "Senior Center", "5353 Sunol Blvd.", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "550", null, "Yes", "4", null, null, "Yes", null, "37.651525", "-121.880395", [ null, "37.651525", "-121.880395", null, false ], null ]
+, [ 194, "037E61A4-7352-4158-B6E3-0336FBADAF59", 194, 1366846083, "700497", 1366846083, "700497", "{\n}", "Senior Center", "7437 Larkdale Ave.", "Dublin", "CA", "94568", "Dublin Unified School District", "Patsy Rankin, Senior Center Director", "(925) 829-6316", "(925) 798-0792", "Martin Sirlin", "(925) 829-6316", "(925) 829-1549", "67", null, "Yes", null, "6", null, "Yes", "Yes", "37.716593", "-121.931072", [ null, "37.716593", "-121.931072", null, false ], null ]
+, [ 195, "502C3C7A-1438-48BD-BC03-48E737D4BFE3", 195, 1366846083, "700497", 1366846083, "700497", "{\n}", "Seven Hills Park", "384 Florence Street", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "3.42 acres", "Yes", "3", null, null, "No", "Yes", "37.5929903", "-121.9982942", [ null, "37.5929903", "-121.9982942", null, false ], null ]
+, [ 196, "73660188-DCD8-4686-B3A2-F38F05390320", 196, 1366846083, "700497", 1366846083, "700497", "{\n}", "Shannon Community Center", "11600 Shannon Ave.", "Dublin", "CA", "94568", "Dublin Unified School District", "Michelle Wiesschem, Recreation Supervisor", "(925) 829-4932", "(510) 582-2255", "Sean Lang, Rec. Coord.", "(925) 829-4932", "(925) 606-8161", "145", null, "Yes", null, "7", null, "Yes", "Yes", "37.7149294", "-121.9410698", [ null, "37.7149294", "-121.9410698", null, false ], null ]
+, [ 197, "3B2F01BA-EE49-411D-B4A3-4EE1E755DA51", 197, 1366846083, "700497", 1366846083, "700497", "{\n}", "Shiloh Baptist Church", "7635 Arthur St.", "Oakland", "CA", "94605", "Shiloh Baptist Church", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "37.6611111", "-122.1083333", [ null, "37.6611111", "-122.1083333", null, false ], null ]
+, [ 198, "98A6299F-D8D0-4424-AC7F-90634B385C47", 198, 1366846083, "700497", 1366846083, "700497", "{\n}", "Silliman Activity Center", "6800 Mowry Avenue", "Newark", "CA", "94560", "City of Newark", "Darryl L. Reina", "(510) 745-1124", "(510) 790-0257", "David Zehnder", "(510) 745-1124", "(925) 820-7580", "300", null, "Yes", "6", null, null, "No", "Yes", "37.517805", "-122.010857", [ null, "37.517805", "-122.010857", null, false ], null ]
+, [ 199, "4A3B5EE9-37D2-442C-9621-4319A514B8F6", 199, 1366846083, "700497", 1366846083, "700497", "{\n}", "Silliman Sportsfield Complex", "6800 Mowry Avenue", "Newark", "CA", "94560", "City of Newark", "Darryl L. Reina", "(510) 745-1124", "(510) 790-0257", "David Zehnder", "(510) 745-1124", "(925) 820-7580", null, null, "Yes", "2", null, null, "No", "Yes", "37.517805", "-122.010857", [ null, "37.517805", "-122.010857", null, false ], null ]
+, [ 200, "70B63A47-0A2E-4A6D-9119-ECA2FB91B8DF", 200, 1366846083, "700497", 1366846083, "700497", "{\n}", "Skyline High School", "12250 Skyline Blvd.", "Oakland", "CA", "94619", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Lois Madkins Walker - principal", "(510) 879-3060", null, null, null, null, null, null, null, null, null, "37.7991064", "-122.1614516", [ null, "37.7991064", "-122.1614516", null, false ], null ]
+, [ 201, "59573205-496B-4D34-A037-3D4088F83B26", 201, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sonoma School Site (Vineyard, Phoenix, Adult Ed.)", "543 & 555 Sonoma Avenue", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Nancy Steele, Principal", "(925) 606-4756", "(925) 455-1384", "Crispin Malaca, Custodian", "(925) 606-4756", "(209) 983-1054", "170", null, "Yes", "11", null, null, "No", "Partial", "37.672736", "-121.794673", [ null, "37.672736", "-121.794673", null, false ], null ]
+, [ 202, "5B569B74-A227-4E2B-8DCC-AA54B4087495", 202, 1366846083, "700497", 1366846083, "700497", "{\n}", "South Berkeley Senior Center", "2939 Ellis Street", "Berkeley", "CA", "94703", "City of Berkeley", "Steve Ward", "(510) 644-6109", null, "David Wee", "(510) 644-8562 x223", null, "200", null, "Yes", "3", null, null, "Yes", "Yes", "37.854175", "-122.272879", [ null, "37.854175", "-122.272879", null, false ], null ]
+, [ 203, "C1986CFD-A7EE-41FB-AEED-81288B7A4698", 203, 1366846083, "700497", 1366846083, "700497", "{\n}", "Spanish-speaking Citizens Foundation", "1407 Fruitvale Ave.", "Oakland", "CA", "94601", "Spanish-speaking Citizens Foundation", null, "(510) 261-7839", null, null, null, null, null, null, null, null, null, null, null, null, "37.778443", "-122.225037", [ null, "37.778443", "-122.225037", null, false ], null ]
+, [ 204, "EDD71573-55B0-4175-BDA0-156D0B584B48", 204, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sports & Community Park, Phase I through Phase V", "5800 Parkside Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "82002", null, "Yes", "10", null, null, "No", null, "37.680582", "-121.892713", [ null, "37.680582", "-121.892713", null, false ], null ]
+, [ 205, "6AB14490-2FB4-4681-A2DE-65B3CE249E11", 205, 1366846083, "700497", 1366846083, "700497", "{\n}", "St. Andrews Catholic Church", "925 Brockhurst St.", "Oakland", "CA", "94609", null, null, "(510) 653-7411", null, null, null, null, null, null, null, null, null, null, null, null, "37.823270", "-122.27691", [ null, "37.823270", "-122.27691", null, false ], null ]
+, [ 206, "C72FA52B-9620-4453-97C2-75DC85C66AC7", 206, 1366846083, "700497", 1366846083, "700497", "{\n}", "St. Anthony Church and School", "1535 16th Ave.", "Oakland", "CA", "94606", "St. Anthony Church and School", null, "(510) 534-2117", null, null, null, null, null, null, null, null, null, null, null, null, "37.789935", "-122.243181", [ null, "37.789935", "-122.243181", null, false ], null ]
+, [ 207, "642DDFA3-0719-49BC-986D-14830AB4057D", 207, 1366846083, "700497", 1366846083, "700497", "{\n}", "St. Elizabeth's Parish", "1500 34th Ave.", "Oakland", "CA", "94601", "St. Elizabeth's Parish", null, "(510) 536-1266", null, null, null, null, null, null, null, null, null, null, null, null, "37.77764", "-122.222346", [ null, "37.77764", "-122.222346", null, false ], null ]
+, [ 208, "64EDFE42-CF94-492F-B2A9-CD0CE5C1CF19", 208, 1366846083, "700497", 1366846083, "700497", "{\n}", "St. Joachim Church", "21250 Hesperian Blvd.", "Hayward", "CA", "94541", "Roman Catholic Bishop of Oakland Sole", "Pastor Raymond Zielezienski", "(510) 783-2766", null, "Armand Seishas", "(510) 783-2766", null, null, null, "Yes", "9", null, null, "Yes", "Yes", "37.663026", "-122.116322", [ null, "37.663026", "-122.116322", null, false ], null ]
+, [ 209, "2AD8FC0C-CF13-4DFA-86DB-85F98BD2F394", 209, 1366846083, "700497", 1366846083, "700497", "{\n}", "St. Mary's College High School", "1294 Albina St.", "Berkeley", "CA", "94706", "St. Mary's College High School", "Br. Edmond Larouche", "(510) 559-6258", "(510) 559-6220", "Ward Fansler", "(510) 559-6223", "(510) 531-2818", null, "14,300sq ft.", "Yes", "15", null, null, "Yes", "Yes", "37.882395", "-122.283694", [ null, "37.882395", "-122.283694", null, false ], null ]
+, [ 210, "2633BD0C-3295-4B09-8FE6-925376A40095", 210, 1366846083, "700497", 1366846083, "700497", "{\n}", "Stanton Elementary School", "2644 Somerset Ave.", "Castro Valley", "CA", "94546", "Castro Valley School District", "Jack McKay - Principal", "(510) 727-9192", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7005262", "-122.0939699", [ null, "37.7005262", "-122.0939699", null, false ], null ]
+, [ 211, "56F4E48C-D342-458F-AC55-57954A1017EA", 211, 1366846083, "700497", 1366846083, "700497", "{\n}", "Studio One Art Center", "365 45th St.", "Oakland", "CA", "94609", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", null, null, "(510) 597-5027", null, null, null, null, null, null, null, null, null, "37.832875", "-122.257394", [ null, "37.832875", "-122.257394", null, false ], null ]
+, [ 212, "A2D69EB4-4B9A-4CCE-B18A-F62B57B9252B", 212, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sunset Adult School", "22100 Princeton Street", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "1315", null, "Yes", "71", null, null, "Yes", "Partial", "37.672589", "-122.097718", [ null, "37.672589", "-122.097718", null, false ], null ]
+, [ 213, "287379DD-3E31-48FF-A595-8398999C01DE", 213, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sunset Elementary School", "1671 Frankfurt Way", "Livermore", "CA", "94550", "Livermore Valley Joint Unified School District", "Janet Loughran-Smith, Principal", "(925) 606-4752", "(925) 820-6396", "Bonnie Hutchins, Head Custodian", "(925) 606-4752", "(925) 443-3640", "255", null, "Yes", "14", null, null, "Yes", "Partial", "37.6627995", "-121.7739526", [ null, "37.6627995", "-121.7739526", null, false ], null ]
+, [ 214, "CABDEF65-634A-421C-BDCD-C575DDC446D6", 214, 1366846083, "700497", 1366846083, "700497", "{\n}", "Sutter Gate Park", "4801 Sutter Gate", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "980", null, "No", null, null, null, "No", null, "37.687052", "-121.883167", [ null, "37.687052", "-121.883167", null, false ], null ]
+, [ 215, "FE3AE5C6-F405-4FA0-86D9-BB620EB97DFD", 215, 1366846083, "700497", 1366846083, "700497", "{\n}", "Tassafronga", "975 85th Ave.", "Oakland", "CA", "94621", "Oakland Office of Parks and Recreation", "Tony Acosta, Director", "(510) 238-3092", "(510) 615-5764", null, null, null, null, null, null, null, null, null, null, null, "37.750109", "-122.18428", [ null, "37.750109", "-122.18428", null, false ], null ]
+, [ 216, "91F6B746-EF1F-448F-BFD8-A735EF26E326", 216, 1366846083, "700497", 1366846083, "700497", "{\n}", "Tawny Park", "400 Tawny Drive", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3594", null, "No", null, null, null, "No", null, "37.6632643", "-121.8555116", [ null, "37.6632643", "-121.8555116", null, false ], null ]
+, [ 217, "4D7C7577-1C1A-4685-A75F-936C8627BDCD", 217, 1366846083, "700497", 1366846083, "700497", "{\n}", "Taylor Memorial United Methodist Church", "1188 12th St.", "Oakland", "CA", "94607", "Taylor Memorial United Methodist Church", null, "(510) 444-6162", null, null, null, null, null, null, null, null, null, null, null, null, "37.808399", "-122.287191", [ null, "37.808399", "-122.287191", null, false ], null ]
+, [ 218, "AA063522-B64D-442F-A427-A4A781FAC4CE", 218, 1366846083, "700497", 1366846083, "700497", "{\n}", "Tennis and Community Park", "5801 Valley Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "12306", null, "Yes", "2", null, null, "No", null, "37.675926", "-121.897271", [ null, "37.675926", "-121.897271", null, false ], null ]
+, [ 219, "7336C464-3E8C-4EEE-B852-0E3294224767", 219, 1366846083, "700497", 1366846083, "700497", "{\n}", "Tennis Park", "5801 Valley Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "90", null, "Yes", "2", null, null, "No", null, "37.675943", "-121.897293", [ null, "37.675943", "-121.897293", null, false ], null ]
+, [ 220, "CB078085-AF07-4EF4-B522-FBEEF24E857F", 220, 1366846083, "700497", 1366846083, "700497", "{\n}", "Tennyson High School", "27035 Whitman Street", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "1184", null, "Yes", null, null, null, "Yes", "Yes", "37.6426076", "-122.0675186", [ null, "37.6426076", "-122.0675186", null, false ], null ]
+, [ 221, "0A86C794-5AC0-4054-8C21-2B4D9B363C91", 221, 1366846083, "700497", 1366846083, "700497", "{\n}", "The Lutheran Church of the Resurrection", "7557 Amador Valley Blvd.", "Dublin", "CA", "94568", "The Lutheran Church of the Resurrection", "Dale or Jan Sollom-Brotherton, Pastors", "(925) 828-1580", "(925) 833-8368", "Kathy Westley, Church Secretary", "(925) 828-1580", "(925) 829-2758", "105", null, "Yes", null, "6", null, "Yes", "Yes", "37.709749", "-121.929898", [ null, "37.709749", "-121.929898", null, false ], null ]
+, [ 222, "7C6B8136-177E-43E6-A354-8CB03F397E21", 222, 1366846083, "700497", 1366846083, "700497", "{\n}", "Thornton Junior High School", "4357 Thornton Avenue", "Fremont", "CA", "94538", "Fremont Unified School District", "Geraldine Forte", "(510) 793-9090", "408/238-9350", "John Lambert, Custodian", "(510) 793-9090", "(510) 790-2306", "1000", null, "Yes", "20", null, null, "Yes", "Yes", "37.5566049", "-122.0156837", [ null, "37.5566049", "-122.0156837", null, false ], null ]
+, [ 223, "1714C489-0C95-4DB9-B185-A14F34D0ED91", 223, 1366846083, "700497", 1366846083, "700497", "{\n}", "Town Estates Park", "3438 Andover Drive", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "11.10 acres", "Yes", "3", null, null, "No", "Yes", "37.5985454", "-122.0535734", [ null, "37.5985454", "-122.0535734", null, false ], null ]
+, [ 224, "81351C4A-FAC6-43A8-A41F-1048D17FC833", 224, 1366846083, "700497", 1366846083, "700497", "{\n}", "Towne House/Plymouth Congregational Church", "412 Monte Vista Ave,", "Oakland", "CA", "94611", "Towne House/Plymouth Congregational Church", null, null, null, null, null, null, null, null, null, null, null, null, null, null, "37.821926", "-122.248825", [ null, "37.821926", "-122.248825", null, false ], null ]
+, [ 225, "D6CB2633-F6E0-4CFE-875B-BEAA0C222C6C", 225, 1366846083, "700497", 1366846083, "700497", "{\n}", "Trinity Evangelical Lutheran Church", "650 Alma Ave.", "Oakland", "CA", "94610", null, null, "(510) 836-3135", null, null, null, null, null, null, null, null, null, null, null, null, "37.8049276", "-122.2377464", [ null, "37.8049276", "-122.2377464", null, false ], null ]
+, [ 226, "6D598790-59CA-4613-B0C9-36688191C45D", 226, 1366846083, "700497", 1366846083, "700497", "{\n}", "Val Vista Park", "6701 Payne Drive", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "9801", null, "No", null, null, null, "No", null, "37.6840972", "-121.9138468", [ null, "37.6840972", "-121.9138468", null, false ], null ]
+, [ 227, "88522B51-0B2E-49D6-8709-95A3F6E24B8E", 227, 1366846083, "700497", 1366846083, "700497", "{\n  \"invalidCells\" : {\n    \"9814482\" : \"16\"\n  }\n}", "Valley Christian Center", "10800 Dublin Blvd.", "Dublin", "CA", "94568", "Valley Christian Center", "Roger Mahany, Business Admin.", "(925) 828-4549", "(925) 828-8367", "Russ Cameron, Head Custodian", "(925) 828-4549", "(925) 803-1798", "240", null, "Yes", null, "55", "16", "Yes", "Yes", "37.69888", "-121.945823", [ null, "37.69888", "-121.945823", null, false ], null ]
+, [ 228, "74A515C4-E25B-40D5-BC7E-89E895BD8E9F", 228, 1366846083, "700497", 1366846083, "700497", "{\n}", "Valley Continuation High School", "6901 York Drive", "Dublin", "CA", "94568", "Dublin Unified School District", "Richard Del Tredici", "(925) 829-4322", "(925) 846-4008", "Greg Tuck", "(925) 829-4322", "(510) 733-2700", "250", null, "Yes", "18", null, null, "No", "Yes", "37.7097419", "-121.9209021", [ null, "37.7097419", "-121.9209021", null, false ], null ]
+, [ 229, "B64DF881-555C-4AC6-A9D5-55F403BFEE8E", 229, 1366846083, "700497", 1366846083, "700497", "{\n}", "Valley Trails Park", "3400 National Park Road", "Pleasanton", "CA", "94588", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "5554", null, "No", null, null, null, "No", null, "37.6757641", "-121.9085688", [ null, "37.6757641", "-121.9085688", null, false ], null ]
+, [ 230, "A6910C45-D5E5-4CE6-9FD7-213CACEB6DA8", 230, 1366846083, "700497", 1366846083, "700497", "{\n}", "Vannoy Elementary School", "5100 Vannoy Ave.", "Castro Valley", "CA", "94546", "Castro Valley School District", "James M. Kentris - Principal", "(510) 537-1832", null, "Michael Miller - Director, Maint., Ops and Transp", "(510) 582-7201", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.7071419", "-122.0586086", [ null, "37.7071419", "-122.0586086", null, false ], null ]
+, [ 231, "1F26A984-8280-453C-BFDA-7F5FB1583926", 231, 1366846083, "700497", 1366846083, "700497", "{\n}", "Veterans Memorial Hall", "Highland & Vista Avenue", "Piedmont", "CA", "94611", "City of Piedmont", "Mark Dreventhal", "(510) 420-3070", null, "City of Piedmont Police Department", "(510) 420-3000", null, "150", null, "Yes", "2", null, null, "Yes", "Partial", "37.823791", "-122.229813", [ null, "37.823791", "-122.229813", null, false ], null ]
+, [ 232, "6F05A81D-FF38-41C5-9382-92AB58CEA87F", 232, 1366846083, "700497", 1366846083, "700497", "{\n}", "Veteran's Plaza", "550 Peters Avenue", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "436", null, "No", null, null, null, "No", null, "37.661684", "-121.877075", [ null, "37.661684", "-121.877075", null, false ], null ]
+, [ 233, "B0562BC5-8794-459C-AAD7-C1B9A7AFBEA3", 233, 1366846083, "700497", 1366846083, "700497", "{\n}", "VFW Building", "301 Main Street", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "226", null, "Yes", "2", null, null, "Yes", null, "37.658694", "-121.87723", [ null, "37.658694", "-121.87723", null, false ], null ]
+, [ 234, "742CEF5C-7431-4E9A-87EE-E54F0475F398", 234, 1366846083, "700497", 1366846083, "700497", "{\n}", "Vintage Hills Park", "3301 Arbor Drive", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3158", null, "No", null, null, null, "No", null, "37.6574312", "-121.8491226", [ null, "37.6574312", "-121.8491226", null, false ], null ]
+, [ 235, "BAC536FC-45D5-447C-AF03-69C9B8CA9AC3", 235, 1366846083, "700497", 1366846083, "700497", "{\n}", "Walnut Grove Park", "5150 Northway Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3267", null, "No", null, null, null, "No", null, "37.6743752", "-121.8852348", [ null, "37.6743752", "-121.8852348", null, false ], null ]
+, [ 236, "BA1B57B5-D258-4EF1-879E-32A8E290A206", 236, 1366846083, "700497", 1366846083, "700497", "{\n}", "Walters Junior High School", "39600 Logan Drive", "Fremont", "CA", "94538", "Fremont Unified School District", "Marcella Smith", "(510) 656-7211", "(510) 889-5968", "Dwayne Cross, Custodian", "(510) 656-7211", "(510) 790-1988", "1000", null, "Yes", "8", null, null, "Yes", "Yes", "37.5366728", "-121.9830952", [ null, "37.5366728", "-121.9830952", null, false ], null ]
+, [ 237, "35E7CB37-FF0C-43B3-A7E1-1B4B83F6DCE5", 237, 1366846083, "700497", 1366846083, "700497", "{\n}", "Warm Springs Community Center", "47300 Fernald Avenue", "Fremont", "CA", "94538", "City of Fremont", "Sherri Smith", "(510) 791-4318", "(510) 471-5815", "John Jamolis", "(510) 791-4318", "(510) 657-0554", "150", null, "Yes", "2", null, null, "Yes", "Yes", "37.484356", "-121.922091", [ null, "37.484356", "-121.922091", null, false ], "Additional facilities outside" ]
+, [ 238, "910AF7A1-F5CC-4451-A611-D334A5639696", 238, 1366846083, "700497", 1366846083, "700497", "{\n}", "Washington Elementary School", "825 Taylor Avenue", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Mike Janvier", "(510) 748-4007", "(510) 523-6671 or (510) 448-3440 pgr", "188", null, "Yes", "2", null, null, "Yes", "Yes", "37.8665525", "-122.2730176", [ null, "37.8665525", "-122.2730176", null, false ], null ]
+, [ 239, "6125DA92-14FC-4264-9D54-E30197510B55", 239, 1366846083, "700497", 1366846083, "700497", "{\n}", "Washington High School", "38442 Fremont Blvd.", "Fremont", "CA", "94538", "Fremont Unified School District", "Judy Duran, Principal", "(510) 794-8866", "(510) 651-2230", "Skip Cain, Assistant Principal", "(510) 794-8866", "(510) 657-3844", "1600", null, "Yes", "34", null, null, "Yes", "Yes", "37.552477", "-121.9932124", [ null, "37.552477", "-121.9932124", null, false ], null ]
+, [ 240, "5FC6026E-C70F-48E3-8C03-1D22BB680719", 240, 1366846083, "700497", 1366846083, "700497", "{\n}", "Washington Manor Middle School", "1170 Fargo Ave.", "San Leandro", "CA", "94579", "San Lorenzo School District", "Diane Cariss - Principal", "(510) 317-5500", null, "James Ferrraro, Director, Maintenance/Operations", "(510) 317-4831", null, null, null, "Yes", null, null, null, "Yes", "Yes", "37.68856", "-122.14898", [ null, "37.68856", "-122.14898", null, false ], null ]
+, [ 241, "0C71BAA1-1417-4540-ABB8-0144D3CA257A", 241, 1366846083, "700497", 1366846083, "700497", "{\n}", "Wayside Park", "4401 First Street", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "545", null, "No", null, null, null, "No", null, "37.66051", "-121.873023", [ null, "37.66051", "-121.873023", null, false ], null ]
+, [ 242, "FFCE8818-AD6C-4020-996C-D23D3BA63F7B", 242, 1366846083, "700497", 1366846083, "700497", "{\n  \"invalidCells\" : {\n    \"9814482\" : \"12\"\n  }\n}", "Wells Middle School", "6800 Penn Drive", "Dublin", "CA", "94568", "Dublin Unified School District", "Wayland Sheppard, Prinicipal", "(925) 828-6227", "(925) 672-5428", "Jae Leal, Head Custodian", "(925) 828-6227", "(925) 443-9572", "271", null, "yes", null, "31", "12", "Yes", "Yes", "37.7116132", "-121.9190432", [ null, "37.7116132", "-121.9190432", null, false ], null ]
+, [ 243, "25169449-8CE6-488B-A465-5FB0D215F5DA", 243, 1366846083, "700497", 1366846083, "700497", "{\n}", "West Berkeley Senior Center", "1900 6th Street", "Berkeley", "CA", "94711", "City of Berkeley", "Effie Burgess", "(510) 644-6053", null, "Larry Taylor", "(510) 644-6036", null, "100", null, "Yes", "5", null, null, "Yes", "Yes", "37.869195", "-122.298193", [ null, "37.869195", "-122.298193", null, false ], null ]
+, [ 244, "FB2C6376-CB8D-4E8D-A24E-2EC0AF3693D1", 244, 1366846083, "700497", 1366846083, "700497", "{\n}", "Westlake Middle School", "2629 Harrison St.", "Oakland", "CA", "94612", "Oakland Unified School District", "George Musgrove - Superintendent", "(510) 670-4140", null, "Belen Balaba - Principal", "(510) 879-2130", null, null, null, null, null, null, null, null, null, "37.8145312", "-122.2605926", [ null, "37.8145312", "-122.2605926", null, false ], null ]
+, [ 245, "D93BF7C5-E528-4C51-9053-DC348C00CB39", 245, 1366846083, "700497", 1366846083, "700497", "{\n}", "William Cann Civic Center Park", "34009 Alvarado-Niles Road", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "7.2 acres", "No", null, null, null, "No", "Yes", "37.587182", "-122.025882", [ null, "37.587182", "-122.025882", null, false ], null ]
+, [ 246, "0B5827CC-54B4-4B0F-9422-179D5CDF5820", 246, 1366846083, "700497", 1366846083, "700497", "{\n}", "William Cann Neighborhood Park", "Marsh Hawk Road & Dove Avenue", "Union City", "CA", "94587", "City of Union City", "Phil Sachs, Public Works Superintendent", "(510) 471-3232 x355", "(510) 657-4355", "Larry Cheeves, Public Works Director", "(510) 471-3232 x306", "(510) 429-8407", null, "3.71 acres", "Yes", "3", null, null, "No", "Yes", "37.588583", "-122.045774", [ null, "37.588583", "-122.045774", null, false ], null ]
+, [ 247, "62F930B3-89F9-4CF5-AF77-B5DEE7A4CC08", 247, 1366846083, "700497", 1366846083, "700497", "{\n}", "Winton Middle School", "119 Winton Avenue", "Hayward", "CA", "94541", "Hayward Unified School District", "Robert White", "(510) 784-2670", null, "Larry Lepore", "(510) 784-2606", "(510) 710-5662", "125", null, "Yes", "18", null, null, "Yes", "Yes", "37.6599566", "-122.0900904", [ null, "37.6599566", "-122.0900904", null, false ], null ]
+, [ 248, "55F6C999-C21E-40BD-937A-56D82D7CA45E", 248, 1366846083, "700497", 1366846083, "700497", "{\n}", "Wood Middle School", "420 Grand Street", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Bill Sonneman", "(510) 748-4015", "(510) 522-2106", "175", null, "Yes", "2", null, null, "Yes", "Yes", "37.761184", "-122.262663", [ null, "37.761184", "-122.262663", null, false ], null ]
+, [ 249, "CDC58409-31F1-45F5-8BA5-0077EB80C5B7", 249, 1366846083, "700497", 1366846083, "700497", "{\n}", "Woodstock Elementary School", "1900 Third Street", "Alameda", "CA", "94501", "Alameda Unified School District", "Robert DeLuca", "(510) 337-7090", "(925) 778-6476 or (510) 448-6427 pgr", "Sandra Rogers-Hale", "(510) 748-4012", "(510) 357-8220 or (510) 310-2360 pgr", "125", null, "Yes", "2", null, null, "No", "Yes", "37.779616", "-122.287854", [ null, "37.779616", "-122.287854", null, false ], null ]
+, [ 250, "986D1693-6663-4FE1-BEDE-5200CA869EA5", 250, 1366846083, "700497", 1366846083, "700497", "{\n}", "Woodthrush Park", "5051 Woodthrush Road", "Pleasanton", "CA", "94566", "City of Pleasanton", "Ken De Silva", "(925) 484-8067", "(925) 754-3156", "Chris Rizzoli", "(925) 484-8067", "(925) 745-0273", "3049", null, "No", null, null, null, "No", null, "37.6804862", "-121.8857903", [ null, "37.6804862", "-121.8857903", null, false ], null ]
+ ]
+}
